@@ -1,1404 +1,295 @@
-Log file open, 06/21/14 15:49:28
+Log file open, 06/23/14 13:24:58
 LogInit:Display: Running engine for game: MyProject
 LogInit: Version: 4.1.1-0+UE4
-LogInit: Compiled (64-bit): Jun 18 2014 17:47:01
+LogInit: Compiled (64-bit): Jun 11 2014 19:11:31
 LogInit: Build Configuration: Development
 LogInit: Branch Name: UE4
 LogInit: Command line: 
-LogInit: Base directory: D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Binaries/Win64/
+LogInit: Base directory: D:/UnrealEngine-4.1/Engine/Binaries/Win64/
 LogInit: Rocket: 0
-[2014.06.21-20.49.28:125][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.06.21-20.49.28:150][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.06.21-20.49.28:156][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.06.21-20.49.28:163][  0]LogInit: Object subsystem initialized
-[2014.06.21-20.49.28:165][  0]LogInit: Selected Device Profile: [Windows]
-[2014.06.21-20.49.28:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.06.21-20.49.28:168][  0]LogInit: Computer: C-1C3E84FD9E46
-[2014.06.21-20.49.28:168][  0]LogInit: User: student
-[2014.06.21-20.49.28:169][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.06.21-20.49.28:169][  0]LogInit: High frequency timer resolution =2.435927 MHz
-[2014.06.21-20.49.28:169][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
-[2014.06.21-20.49.28:169][  0]LogMemory: Platform Memory Stats for Windows
-[2014.06.21-20.49.28:169][  0]LogMemory: Process Physical Memory: 67.52 MB used, 67.52 MB peak
-[2014.06.21-20.49.28:169][  0]LogMemory: Process Virtual Memory: 48.39 MB used, 48.39 MB peak
-[2014.06.21-20.49.28:169][  0]LogMemory: Physical Memory: 2226.88 MB used, 4027.56 MB total
-[2014.06.21-20.49.28:169][  0]LogMemory: Virtual Memory: 251.02 MB used, 8388608.00 MB total
-[2014.06.21-20.49.28:197][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570M (Feature Level 11_0)
-[2014.06.21-20.49.28:197][  0]LogD3D11RHI: Adapter has 1007MB of dedicated video memory, 0MB of dedicated system memory, and 1757MB of shared system memory, 1 output[s]
-[2014.06.21-20.49.28:197][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.06.21-20.49.28:202][  0]LogRHI: Texture pool is 705 MB (70% of 1007 MB)
-[2014.06.21-20.49.28:214][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.06.21-20.49.28:251][  0]LogInit:Warning: We appear to have no tool tip localization data? Editor can't run.
-[2014.06.21-20.49.28:251][  0]LogInit:Warning: We appear to have no property name localization data? Editor can't run.
-[2014.06.21-20.49.28:273][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
-[2014.06.21-20.49.28:294][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.06.21-20.49.28:313][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.06.21-20.49.28:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.06.21-20.49.28:991][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache:Warning: Could not find memory cache ../../../../../Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache:Warning: Could not load Boot cache: ../../../../../Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.06.21-20.49.29:019][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2014.06.21-20.49.29:030][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2014.06.21-20.49.29:030][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2014.06.21-20.49.29:030][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2014.06.21-20.49.30:076][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.06.21-20.49.30:076][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.06.21-20.49.39:270][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
-[2014.06.21-20.49.39:270][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
-[2014.06.21-20.49.39:270][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
-[2014.06.21-20.49.39:270][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
-[2014.06.21-20.49.43:014][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.06.21-20.49.43:115][  0]SourceControl: Info Source control is disabled
-[2014.06.21-20.49.43:115][  0]SourceControl: Info Source control is disabled
-[2014.06.21-20.49.43:122][  0]SourceControl: Info Source control is disabled
-[2014.06.21-20.49.43:340][  0]BlueprintLog: New page: Editor Load
-[2014.06.21-20.49.43:366][  0]LogObj: 18600 objects as part of root set at end of initial load.
-[2014.06.21-20.49.43:366][  0]LogUObjectAllocator: 3704168 out of 0 bytes used by permanent object pool.
-[2014.06.21-20.49.43:560][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
-[2014.06.21-20.49.43:560][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
-[2014.06.21-20.49.43:560][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
-Resource: (D:/Student Data/Desktop/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
-[2014.06.21-20.49.43:561][  0]LogEngine: Initializing Engine...
-[2014.06.21-20.49.44:333][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2014.06.21-20.49.44:416][  0]LogInit: FAudioDevice initialized.
-[2014.06.21-20.49.44:454][  0]LogDerivedDataCache: Saved boot cache 0.04s 38MB ../../../../../Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
-[2014.06.21-20.49.44:460][  0]LogInit: Texture streaming: Enabled
-[2014.06.21-20.49.44:482][  0]LogInit: Transaction tracking system initialized
-[2014.06.21-20.49.44:561][  0]LogStreaming:Warning: Failed to read file '../../../../../Documents/Unreal Projects/MyProject/Intermediate/CachedAssetRegistry.bin' error.
-[2014.06.21-20.49.44:561][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
-[2014.06.21-20.49.44:667][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.06.21-20.49.44:671][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.06.21-20.49.44:739][  0]LogConsoleResponse:Display: 
-[2014.06.21-20.49.44:951][  0]SourceControl: Info Source control is disabled
-[2014.06.21-20.49.44:951][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.06.21-20.49.44:951][  0]LightingResults: New page: Lighting Build
-[2014.06.21-20.49.44:957][  0]MapCheck: New page: Map Check
-[2014.06.21-20.49.44:957][  0]LightingResults: New page: Lighting Build
-[2014.06.21-20.49.44:973][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000102214E0
-[2014.06.21-20.49.46:162][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.06.21-20.49.46:164][  0]Cmd: MAP CHECKDEP
-[2014.06.21-20.49.46:164][  0]MapCheck: New page: Example_Map - Jun 21, 2014, 10:49:46 AM
-[2014.06.21-20.49.46:221][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [56.508ms] ==========
-[2014.06.21-20.49.46:221][  0]LogFileHelpers: Loading map 'Example_Map' took 1.270
-[2014.06.21-20.49.46:457][  0]LogCollectionManager: Loaded 0 collections in 0.002527 seconds
-[2014.06.21-20.49.46:816][  0]LogInit: Using libcurl 7.34.0
-[2014.06.21-20.49.46:816][  0]LogInit:  - built for x86_64-pc-win32
-[2014.06.21-20.49.46:816][  0]LogInit:  - supports SSL with WinSSL
-[2014.06.21-20.49.46:816][  0]LogInit:  - other features:
-[2014.06.21-20.49.46:816][  0]LogInit:      CURL_VERSION_SSL
-[2014.06.21-20.49.46:816][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2014.06.21-20.49.46:816][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2014.06.21-20.49.46:816][  0]LogInit:      CURL_VERSION_IDN
-[2014.06.21-20.49.46:816][  0]LogInit: Libcurl will NOT reuse connections
-[2014.06.21-20.49.47:238][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.06.21-20.49.47:238][  0]Cmd: MODE PLACEMENT
-[2014.06.21-20.49.47:271][  0]LogLoad: Full Startup: 20.22 seconds (BP compile: 0.08 seconds)
-[2014.06.21-20.49.47:971][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x720.
-[2014.06.21-20.49.49:034][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6E72BAF5D82A5881</RequestId><HostId>fVP763Dpir6+54Mb7ssBRmRSzY4lGW5E0RtzCNNLANxawEUEvXpFpFM7ZlQaY3NO</HostId></Error>
-[2014.06.21-20.49.49:077][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9E305AE0E9D23439</RequestId><HostId>0ht7lv89WtBmA3+DQQnetAllneqV5OGDHHTrCKOzJBsm2MCKhKK0EeW6VdW3VVQV</HostId></Error>
-[2014.06.21-20.49.49:157][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>662BDFCE35BB079D</RequestId><HostId>cHRdijUVMpF87ds4ogpakOlR4rax8M59YEiqFH81qVWch0hdkmGZki0AS9QsqCI6</HostId></Error>
-[2014.06.21-20.49.49:211][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>400F16E3EDF80E2E</RequestId><HostId>aNpVT3N/7QbL/C2zRNNe8pns7EAwsHHxSaELfHXvMPdyqsOryTBdzi21TeL8gBh6</HostId></Error>
-[2014.06.21-20.49.49:343][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>33F7B4DA84950F11</RequestId><HostId>R3DGJfP+OoZ0dIDsxLMhOO8I9MUIXKGu1sEXCXliInTxYBGgyeoxA+GIpUmELPFb</HostId></Error>
-[2014.06.21-20.49.49:493][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-20.49.49:494][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-20.49.56:641][111]LogAssetRegistry: Asset discovery search completed in 12.0890 seconds
-[2014.06.21-20.51.05:565][115]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2014.06.21-20.51.20:396][335]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-20.51.20:396][335]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 10:51:20 AM)
-[2014.06.21-20.51.20:423][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026754s)
-[2014.06.21-20.51.20:424][335]LogPlayLevel: PIE: World Init took: (0.000913s)
-[2014.06.21-20.51.20:425][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.028034s)
-[2014.06.21-20.51.20:434][335]LogLinker:Warning: CreateExport: Failed to load Super for Function /Game/Character/HeroFPP_AnimBlueprint.HeroFPP_AnimBlueprint_C:KismetUpdateAnimation; removing super information, but keeping function
-[2014.06.21-20.51.20:591][335]LogClass:Warning: Type mismatch in PreviewSkeletalMesh of Skeleton - Previous (ObjectProperty) Current(AssetObjectProperty) for package:  ../../../../../Documents/Unreal Projects/MyProject/Content/Character/HeroFPP_Skeleton.uasset
-[2014.06.21-20.51.20:671][335]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-20.51.20:746][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-15.51.20
-[2014.06.21-20.51.20:747][335]LogWorld: Bringing up level for play took: 0.006050
-[2014.06.21-20.51.20:748][335]LogGameMode: RestartPlayer 256
-[2014.06.21-20.51.20:751][335]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.06.21-20.51.20:751][335]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.06.21-20.51.20:758][335]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.002
-[2014.06.21-20.51.45:196][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCCA3E0
-[2014.06.21-20.51.50:444][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.06.21-21.00.13:641][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
-[2014.06.21-21.00.13:641][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.06.21-21.00.13:684][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.044
-[2014.06.21-21.00.13:705][634]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.00.13:787][634]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-21.00.13:787][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.00.13:789][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.00.14:253][634]LogSavePackage: Save=406.599609ms
-[2014.06.21-21.00.14:253][634]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto1189851E8430AE0AB620C4695C45D72B3.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
-[2014.06.21-21.00.14:258][634]LogFileHelpers: Auto-saving content packages took 0.574
-[2014.06.21-21.04.47:604][149]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.04.47:605][149]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.10.14:343][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.06.21-21.10.14:397][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.054
-[2014.06.21-21.10.14:406][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.10.14:487][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.10.14:490][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.10.14:596][188]LogSavePackage: Save=89.265808ms
-[2014.06.21-21.10.14:596][188]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto265F5532F4283A4A2100CFD9159152A91.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset'
-[2014.06.21-21.10.14:601][188]LogFileHelpers: Auto-saving content packages took 0.204
-[2014.06.21-21.19.47:683][718]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.19.47:684][718]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.20.14:813][123]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.023
-[2014.06.21-21.20.14:847][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.20.14:937][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.20.14:942][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.20.15:055][123]LogSavePackage: Save=62.294971ms
-[2014.06.21-21.20.15:055][123]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto367507C194929D940AF613994FF915377.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
-[2014.06.21-21.20.15:060][123]LogFileHelpers: Auto-saving content packages took 0.248
-[2014.06.21-21.30.15:203][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.024
-[2014.06.21-21.30.15:234][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.30.15:328][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.30.15:333][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.30.15:441][808]LogSavePackage: Save=94.820168ms
-[2014.06.21-21.30.15:441][808]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto401F2C38642E4415F7BCC8D80FFC34DE3.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
-[2014.06.21-21.30.15:445][808]LogFileHelpers: Auto-saving content packages took 0.242
-[2014.06.21-21.34.48:074][733]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.34.48:075][733]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.40.15:643][489]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.028
-[2014.06.21-21.40.15:652][489]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.40.15:700][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.40.15:706][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.40.15:776][489]LogSavePackage: Save=41.246719ms
-[2014.06.21-21.40.15:776][489]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto5816F1EA046D60A52A5654D83EED5961D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset'
-[2014.06.21-21.40.15:780][489]LogFileHelpers: Auto-saving content packages took 0.137
-[2014.06.21-21.43.10:812][ 47]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog1)
-[2014.06.21-21.43.13:257][ 86]Cmd: DELETE
-[2014.06.21-21.43.13:257][ 86]Cmd: ACTOR DELETE
-[2014.06.21-21.43.13:288][ 86]LogEditorActor: Deleted Actor: AtmosphericFog
-[2014.06.21-21.43.13:289][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2014.06.21-21.43.13:289][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.06.21-21.43.13:310][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CC7BE20
-[2014.06.21-21.43.13:311][ 86]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2014.06.21-21.43.33:497][409]Cmd: DELETE
-[2014.06.21-21.43.33:497][409]Cmd: ACTOR DELETE
-[2014.06.21-21.43.33:498][409]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2014.06.21-21.43.33:499][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
-[2014.06.21-21.43.33:499][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.06.21-21.43.33:560][409]LogEditorActor: Deleted 1 Actors (0.063 secs)
-[2014.06.21-21.43.55:183][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.06.21-21.44.00:714][193]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
-[2014.06.21-21.44.27:435][929]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
-[2014.06.21-21.44.28:676][929]LogMaterial: Missing cached shader map for material T_Brick_Clay_Old_Mat, compiling.
-[2014.06.21-21.44.29:002][929]Cmd: EDCALLBACK SURFPROPS
-[2014.06.21-21.44.29:003][929]LogMaterial:Warning: Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat needed to have new flag set bUsedWithStaticLighting !
-[2014.06.21-21.44.29:005][929]LogMaterial: Missing cached shader map for material T_Brick_Clay_Old_Mat, compiling.
-[2014.06.21-21.44.29:011][929]LogMaterial: 0.000049 seconds spent updating 1 materials, 0 instances, 0 with static permutations.
-[2014.06.21-21.45.46:749][488]LogTexture:Display: Building textures: T_CobbleStone_Rough_D (AutoDXT)
-[2014.06.21-21.45.50:028][616]LogTexture:Display: Building textures: T_CobbleStone_Rough_N (AutoDXT)
-[2014.06.21-21.45.52:306][616]LogMaterial: Missing cached shader map for material T_CobbleStone_Rough_Mat, compiling.
-[2014.06.21-21.45.52:346][616]LogMaterial:Warning: Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat needed to have new flag set bUsedWithStaticLighting !
-[2014.06.21-21.45.52:347][616]LogMaterial: Missing cached shader map for material T_CobbleStone_Rough_Mat, compiling.
-[2014.06.21-21.45.52:350][616]LogMaterial: 0.000545 seconds spent updating 1 materials, 0 instances, 0 with static permutations.
-[2014.06.21-21.47.41:058][903]LogTexture:Display: Building textures: T_Tech_Dot_N (BC5)
-[2014.06.21-21.47.42:958][112]LogMaterial: Missing cached shader map for material T_Tech_Dot_Mat, compiling.
-[2014.06.21-21.47.53:369][290]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-21.47.53:369][290]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 11:47:53 AM)
-[2014.06.21-21.47.53:403][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033906s)
-[2014.06.21-21.47.53:404][290]LogPlayLevel: PIE: World Init took: (0.001016s)
-[2014.06.21-21.47.53:405][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.035293s)
-[2014.06.21-21.47.53:405][290]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-21.47.53:453][290]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-16.47.53
-[2014.06.21-21.47.53:453][290]LogWorld: Bringing up level for play took: 0.002548
-[2014.06.21-21.47.53:453][290]LogGameMode: RestartPlayer 257
-[2014.06.21-21.47.53:454][290]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
-[2014.06.21-21.47.53:454][290]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
-[2014.06.21-21.47.53:457][290]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.374
-[2014.06.21-21.48.29:514][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
-[2014.06.21-21.48.29:514][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.06.21-21.48.29:534][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F749440
-[2014.06.21-21.48.40:606][150]LogTexture:Display: Building textures: T_Wood_Oak_D (AutoDXT)
-[2014.06.21-21.48.50:034][150]LogTexture:Display: Building textures: T_Wood_Oak_N (BC5)
-[2014.06.21-21.48.51:211][150]LogMaterial: Missing cached shader map for material T_Wood_Oak_Mat, compiling.
-[2014.06.21-21.48.51:228][150]LogMaterial:Warning: Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat needed to have new flag set bUsedWithStaticLighting !
-[2014.06.21-21.48.51:230][150]LogMaterial: Missing cached shader map for material T_Wood_Oak_Mat, compiling.
-[2014.06.21-21.48.51:233][150]LogMaterial: 0.000048 seconds spent updating 1 materials, 0 instances, 0 with static permutations.
-[2014.06.21-21.49.47:845][953]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.49.47:847][953]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-21.50.52:673][914]LogSavePackage: Save=357.343628ms
-[2014.06.21-21.50.52:673][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto69F19A23C4B0ED6F9F62346BAEBDDDA56.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto6.umap'
-[2014.06.21-21.50.52:689][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.513
-[2014.06.21-21.50.52:689][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.513
-[2014.06.21-21.50.52:698][914]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-21.50.52:713][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-21.50.52:717][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-21.50.52:791][914]LogSavePackage: Save=61.781406ms
-[2014.06.21-21.50.52:791][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto6944F8F3343529492A0E385828DB309C1.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto6.uasset'
-[2014.06.21-21.50.52:801][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-21.50.52:852][914]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-21.50.52:852][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-21.50.53:055][914]LogSavePackage: Save=176.512680ms
-[2014.06.21-21.50.53:055][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto687F2178F4FE867D9B68580ACDF49F5EA.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto6.uasset'
-[2014.06.21-21.50.53:065][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-21.50.53:121][914]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-21.50.53:121][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-21.50.53:453][914]LogSavePackage: Save=306.142578ms
-[2014.06.21-21.50.53:453][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto61A8E5201493F5729837D8A841E20B433.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto6.uasset'
-[2014.06.21-21.50.53:463][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-21.50.53:519][914]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-21.50.53:519][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-21.50.53:825][914]LogSavePackage: Save=295.216980ms
-[2014.06.21-21.50.53:825][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto6A9A96B0D44E31F586896BCA87951972F.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto6.uasset'
-[2014.06.21-21.50.53:835][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-21.50.53:887][914]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-21.50.53:887][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-21.50.54:094][914]LogSavePackage: Save=197.034225ms
-[2014.06.21-21.50.54:095][914]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto6451A23654B5293C165CCC2A11B6340CA.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto6.uasset'
-[2014.06.21-21.50.54:099][914]LogFileHelpers: Auto-saving content packages took 1.410
-[2014.06.21-21.56.34:653][814]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2014.06.21-21.57.49:032][935]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-21.57.49:032][935]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 11:57:49 AM)
-[2014.06.21-21.57.49:059][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026770s)
-[2014.06.21-21.57.49:061][935]LogPlayLevel: PIE: World Init took: (0.002030s)
-[2014.06.21-21.57.49:061][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.029081s)
-[2014.06.21-21.57.49:061][935]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-21.57.49:090][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-16.57.49
-[2014.06.21-21.57.49:091][935]LogWorld: Bringing up level for play took: 0.003037
-[2014.06.21-21.57.49:095][935]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.75
-[2014.06.21-21.57.53:353][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F748220
-[2014.06.21-21.57.54:291][  6]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-21.57.54:291][  6]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 11:57:54 AM)
-[2014.06.21-21.57.54:321][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029737s)
-[2014.06.21-21.57.54:322][  6]LogPlayLevel: PIE: World Init took: (0.000763s)
-[2014.06.21-21.57.54:322][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.030711s)
-[2014.06.21-21.57.54:322][  6]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-21.57.54:350][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-16.57.54
-[2014.06.21-21.57.54:350][  6]LogWorld: Bringing up level for play took: 0.002576
-[2014.06.21-21.57.54:351][  6]LogGameMode: RestartPlayer 259
-[2014.06.21-21.57.54:352][  6]LogPlayerController: ClientRestart_Implementation MyCharacter_C_2
-[2014.06.21-21.57.54:352][  6]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_2
-[2014.06.21-21.57.54:355][  6]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.51
-[2014.06.21-21.59.06:067][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CB02480
-[2014.06.21-21.59.37:593][987]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.06.21-22.00.03:736][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:736][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:829][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:829][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:829][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:829][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:829][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:830][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:831][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:831][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:831][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:831][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.03:831][710]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.58:546][  7]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.58:546][  7]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.58:546][  7]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.00.58:546][  7]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.02.08:085][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
-[2014.06.21-22.02.08:085][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2014.06.21-22.02.10:298][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2014.06.21-22.02.10:948][359]LogSavePackage: Save=492.485199ms
-[2014.06.21-22.02.10:949][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto75938090A4AEC783EF621E98A9B9F28A3.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto7.umap'
-[2014.06.21-22.02.10:957][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.660
-[2014.06.21-22.02.10:957][359]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.660
-[2014.06.21-22.02.10:974][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.02.11:018][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-22.02.11:018][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.02.11:021][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto7.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.02.11:442][359]LogSavePackage: Save=375.732117ms
-[2014.06.21-22.02.11:442][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto78F5019894AC65A0A97203BAF94E4DF29.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto7.uasset'
-[2014.06.21-22.02.11:455][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.02.11:500][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.02.11:500][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.02.11:666][359]LogSavePackage: Save=138.311203ms
-[2014.06.21-22.02.11:666][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto766CC10984CD08993E0A0F8AC1C406758.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto7.uasset'
-[2014.06.21-22.02.11:678][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.02.11:734][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.02.11:734][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.02.12:035][359]LogSavePackage: Save=289.053833ms
-[2014.06.21-22.02.12:035][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto710767B3645ADAD8D30C83A89DD288B7D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto7.uasset'
-[2014.06.21-22.02.12:046][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.02.12:100][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.02.12:100][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.02.12:404][359]LogSavePackage: Save=257.520844ms
-[2014.06.21-22.02.12:404][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto7C0A6980E489ADFB764D96F9A291AE3B3.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto7.uasset'
-[2014.06.21-22.02.12:416][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.02.12:469][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.02.12:469][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.02.12:675][359]LogSavePackage: Save=178.121918ms
-[2014.06.21-22.02.12:675][359]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto79C863CB14118B09ABBC2D79CB33EADFD.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto7.uasset'
-[2014.06.21-22.02.12:679][359]LogFileHelpers: Auto-saving content packages took 1.722
-[2014.06.21-22.02.28:066][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2014.06.21-22.02.47:881][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2014.06.21-22.03.13:638][170]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.03.13:638][170]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.03.13:638][170]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.03.13:638][170]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.03.13:638][170]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.04.47:746][337]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.04.47:747][337]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.06.54:538][852]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.06.21-22.06.54:666][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2014.06.21-22.06.54:699][852]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
-[2014.06.21-22.06.55:263][852]LogPlayLevel: PIE:  Blueprint regeneration took 725 ms (1 blueprints)
-[2014.06.21-22.06.55:263][852]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 12:06:55 PM)
-[2014.06.21-22.06.55:294][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030709s)
-[2014.06.21-22.06.55:295][852]LogPlayLevel: PIE: World Init took: (0.000659s)
-[2014.06.21-22.06.55:295][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.031552s)
-[2014.06.21-22.06.55:295][852]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.06.55:328][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.06.55
-[2014.06.21-22.06.55:328][852]LogWorld: Bringing up level for play took: 0.003013
-[2014.06.21-22.06.55:329][852]LogGameMode: RestartPlayer 260
-[2014.06.21-22.06.55:329][852]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.06.21-22.06.55:329][852]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.06.21-22.06.55:333][852]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.476
-[2014.06.21-22.06.58:069][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2014.06.21-22.06.58:119][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A99B380
-[2014.06.21-22.06.59:500][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.06.21-22.06.59:876][915]LogSavePackage: Save=359.915955ms
-[2014.06.21-22.06.59:876][915]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacterAC6A7436479918EFC5A23EA25BF7F1FA.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset'
-[2014.06.21-22.07.15:166][127]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.07.15:167][127]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 12:07:15 PM)
-[2014.06.21-22.07.15:192][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025582s)
-[2014.06.21-22.07.15:193][127]LogPlayLevel: PIE: World Init took: (0.000725s)
-[2014.06.21-22.07.15:193][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.026495s)
-[2014.06.21-22.07.15:193][127]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.07.15:222][127]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.07.15
-[2014.06.21-22.07.15:223][127]LogWorld: Bringing up level for play took: 0.002629
-[2014.06.21-22.07.15:223][127]LogGameMode: RestartPlayer 261
-[2014.06.21-22.07.15:224][127]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
-[2014.06.21-22.07.15:224][127]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
-[2014.06.21-22.07.15:227][127]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.63
-[2014.06.21-22.07.16:789][156]LogBlueprintUserMessages: 2
-[2014.06.21-22.07.17:479][170]LogBlueprintUserMessages: 3
-[2014.06.21-22.07.17:734][175]LogBlueprintUserMessages: 4
-[2014.06.21-22.07.17:937][179]LogBlueprintUserMessages: 5
-[2014.06.21-22.07.18:091][182]LogBlueprintUserMessages: 6
-[2014.06.21-22.07.18:244][185]LogBlueprintUserMessages: 7
-[2014.06.21-22.07.18:450][189]LogBlueprintUserMessages: 8
-[2014.06.21-22.07.18:654][193]LogBlueprintUserMessages: 9
-[2014.06.21-22.07.18:858][197]LogBlueprintUserMessages: 10
-[2014.06.21-22.07.19:011][200]LogBlueprintUserMessages: 11
-[2014.06.21-22.07.19:214][204]LogBlueprintUserMessages: 12
-[2014.06.21-22.07.19:368][207]LogBlueprintUserMessages: 13
-[2014.06.21-22.07.19:520][210]LogBlueprintUserMessages: 14
-[2014.06.21-22.07.19:725][214]LogBlueprintUserMessages: 15
-[2014.06.21-22.07.22:279][264]LogBlueprintUserMessages: 16
-[2014.06.21-22.07.22:838][275]LogBlueprintUserMessages: 17
-[2014.06.21-22.07.46:488][740]LogBlueprintUserMessages: 18
-[2014.06.21-22.07.46:895][748]LogBlueprintUserMessages: 19
-[2014.06.21-22.07.47:302][756]LogBlueprintUserMessages: 20
-[2014.06.21-22.08.15:584][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2014.06.21-22.08.15:584][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
-[2014.06.21-22.08.15:640][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B2D8400
-[2014.06.21-22.09.38:315][706]LogBlueprintUserMessages: 21
-[2014.06.21-22.09.40:849][752]LogBlueprintUserMessages: 22
-[2014.06.21-22.09.42:010][773]LogBlueprintUserMessages: 23
-[2014.06.21-22.09.42:452][781]LogBlueprintUserMessages: 24
-[2014.06.21-22.09.42:728][786]LogBlueprintUserMessages: 25
-[2014.06.21-22.09.42:949][790]LogBlueprintUserMessages: 26
-[2014.06.21-22.09.47:699][876]LogBlueprintUserMessages: 27
-[2014.06.21-22.09.48:914][898]LogBlueprintUserMessages: 28
-[2014.06.21-22.09.56:753][ 40]LogBlueprintUserMessages: 29
-[2014.06.21-22.09.58:191][ 66]LogBlueprintUserMessages: 30
-[2014.06.21-22.09.59:238][ 85]LogBlueprintUserMessages: 31
-[2014.06.21-22.10.00:013][ 99]LogBlueprintUserMessages: 32
-[2014.06.21-22.10.11:623][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C288D60
-[2014.06.21-22.11.24:451][790]BlueprintLog: New page: Compile MyCharacter
-[2014.06.21-22.11.24:548][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2014.06.21-22.11.24:886][790]BlueprintEditorCompileResults: Info [4917.35] Compile of MyCharacter successful! [in 43 ms]
-[2014.06.21-22.11.25:544][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.06.21-22.11.25:944][798]LogSavePackage: Save=390.453827ms
-[2014.06.21-22.11.25:944][798]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter58188B0E4FF800313C55D8AB6696C47D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset'
-[2014.06.21-22.11.28:028][828]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2014.06.21-22.11.30:215][860]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.11.30:216][860]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 12:11:30 PM)
-[2014.06.21-22.11.30:250][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034276s)
-[2014.06.21-22.11.30:251][860]LogPlayLevel: PIE: World Init took: (0.000695s)
-[2014.06.21-22.11.30:251][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.035191s)
-[2014.06.21-22.11.30:251][860]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.11.30:297][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.11.30
-[2014.06.21-22.11.30:297][860]LogWorld: Bringing up level for play took: 0.002600
-[2014.06.21-22.11.30:298][860]LogGameMode: RestartPlayer 262
-[2014.06.21-22.11.30:298][860]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.06.21-22.11.30:298][860]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.06.21-22.11.30:302][860]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.439
-[2014.06.21-22.11.31:563][883]LogBlueprintUserMessages: 2
-[2014.06.21-22.11.31:736][887]LogBlueprintUserMessages: 3
-[2014.06.21-22.11.31:944][891]LogBlueprintUserMessages: 4
-[2014.06.21-22.11.32:148][895]LogBlueprintUserMessages: 5
-[2014.06.21-22.11.32:357][899]LogBlueprintUserMessages: 6
-[2014.06.21-22.11.32:563][903]LogBlueprintUserMessages: 7
-[2014.06.21-22.11.32:769][907]LogBlueprintUserMessages: 8
-[2014.06.21-22.11.32:976][911]LogBlueprintUserMessages: 9
-[2014.06.21-22.11.33:184][915]LogBlueprintUserMessages: 10
-[2014.06.21-22.11.33:341][918]LogBlueprintUserMessages: 11
-[2014.06.21-22.11.33:551][922]LogBlueprintUserMessages: 12
-[2014.06.21-22.11.33:758][926]LogBlueprintUserMessages: 13
-[2014.06.21-22.11.33:911][929]LogBlueprintUserMessages: 14
-[2014.06.21-22.11.34:117][933]LogBlueprintUserMessages: 15
-[2014.06.21-22.11.34:270][936]LogBlueprintUserMessages: 16
-[2014.06.21-22.11.34:474][940]LogBlueprintUserMessages: 17
-[2014.06.21-22.11.34:626][943]LogBlueprintUserMessages: 18
-[2014.06.21-22.11.34:882][948]LogBlueprintUserMessages: 19
-[2014.06.21-22.11.35:085][952]LogBlueprintUserMessages: 20
-[2014.06.21-22.11.35:239][955]LogBlueprintUserMessages: 21
-[2014.06.21-22.11.35:395][958]LogBlueprintUserMessages: 22
-[2014.06.21-22.11.35:602][962]LogBlueprintUserMessages: 23
-[2014.06.21-22.11.35:757][965]LogBlueprintUserMessages: 24
-[2014.06.21-22.11.35:912][968]LogBlueprintUserMessages: 25
-[2014.06.21-22.11.36:123][972]LogBlueprintUserMessages: 26
-[2014.06.21-22.11.36:329][976]LogBlueprintUserMessages: 27
-[2014.06.21-22.11.36:535][980]LogBlueprintUserMessages: 28
-[2014.06.21-22.11.36:688][983]LogBlueprintUserMessages: 29
-[2014.06.21-22.11.36:892][987]LogBlueprintUserMessages: 30
-[2014.06.21-22.11.37:096][991]LogBlueprintUserMessages: 31
-[2014.06.21-22.11.37:300][995]LogBlueprintUserMessages: 32
-[2014.06.21-22.11.37:503][999]LogBlueprintUserMessages: 33
-[2014.06.21-22.11.40:965][ 65]LogBlueprintUserMessages: 34
-[2014.06.21-22.11.41:121][ 68]LogBlueprintUserMessages: 35
-[2014.06.21-22.11.41:331][ 72]LogBlueprintUserMessages: 36
-[2014.06.21-22.11.41:540][ 76]LogBlueprintUserMessages: 37
-[2014.06.21-22.11.41:698][ 79]LogBlueprintUserMessages: 38
-[2014.06.21-22.11.41:911][ 83]LogBlueprintUserMessages: 39
-[2014.06.21-22.11.42:124][ 87]LogBlueprintUserMessages: 40
-[2014.06.21-22.11.42:339][ 91]LogBlueprintUserMessages: 41
-[2014.06.21-22.11.42:553][ 95]LogBlueprintUserMessages: 42
-[2014.06.21-22.11.42:768][ 99]LogBlueprintUserMessages: 43
-[2014.06.21-22.11.42:979][103]LogBlueprintUserMessages: 44
-[2014.06.21-22.11.43:136][106]LogBlueprintUserMessages: 45
-[2014.06.21-22.11.43:295][109]LogBlueprintUserMessages: 46
-[2014.06.21-22.11.43:453][112]LogBlueprintUserMessages: 47
-[2014.06.21-22.11.43:614][115]LogBlueprintUserMessages: 48
-[2014.06.21-22.11.43:832][119]LogBlueprintUserMessages: 49
-[2014.06.21-22.11.44:045][123]LogBlueprintUserMessages: 50
-[2014.06.21-22.11.44:366][129]LogBlueprintUserMessages: 51
-[2014.06.21-22.11.44:580][133]LogBlueprintUserMessages: 52
-[2014.06.21-22.11.44:793][137]LogBlueprintUserMessages: 53
-[2014.06.21-22.11.49:707][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2014.06.21-22.11.49:742][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AE61E40
-[2014.06.21-22.15.32:309][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2014.06.21-22.15.33:105][475]LogSavePackage: Save=616.318970ms
-[2014.06.21-22.15.33:105][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto863335DF24E158551607E0BB5771C1D80.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto8.umap'
-[2014.06.21-22.15.33:110][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.801
-[2014.06.21-22.15.33:110][475]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.801
-[2014.06.21-22.15.33:118][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.15.33:169][475]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-22.15.33:169][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.15.33:171][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto8.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.15.33:627][475]LogSavePackage: Save=446.800323ms
-[2014.06.21-22.15.33:628][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto8E5EF673444643DFE06D667A2035507A0.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto8.uasset'
-[2014.06.21-22.15.33:642][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.15.33:691][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.15.33:691][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.15.34:055][475]LogSavePackage: Save=339.302460ms
-[2014.06.21-22.15.34:055][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto8E406A9324F6D1DFEF46A5592B80CF9B9.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto8.uasset'
-[2014.06.21-22.15.34:066][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.15.34:123][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.15.34:123][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.15.34:454][475]LogSavePackage: Save=304.301819ms
-[2014.06.21-22.15.34:454][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto801A4504E494F4E3898DEC3894B42FFEC.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto8.uasset'
-[2014.06.21-22.15.34:466][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.15.34:521][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.15.34:522][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.15.34:830][475]LogSavePackage: Save=280.116760ms
-[2014.06.21-22.15.34:830][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto83EAE854648F8C34D86716AA1B152C292.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto8.uasset'
-[2014.06.21-22.15.34:844][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.15.34:888][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.15.34:888][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.15.35:121][475]LogSavePackage: Save=203.785248ms
-[2014.06.21-22.15.35:121][475]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto8E69056194E790FA367C9C5AAB0CE873C.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto8.uasset'
-[2014.06.21-22.15.35:130][475]LogFileHelpers: Auto-saving content packages took 2.020
-[2014.06.21-22.18.26:069][772]BlueprintLog: New page: Compile MyCharacter
-[2014.06.21-22.18.26:146][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2014.06.21-22.18.26:453][772]BlueprintEditorCompileResults: Info [5338.94] Compile of MyCharacter successful! [in 31 ms]
-[2014.06.21-22.19.13:395][ 67]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2014.06.21-22.19.21:014][327]LogEditorTransaction: Undo Delete current selection
-[2014.06.21-22.19.21:123][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2014.06.21-22.19.38:548][656]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2014.06.21-22.19.41:066][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:067][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:067][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:068][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:069][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:069][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:069][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:070][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:070][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:071][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:071][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:071][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:072][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:072][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:073][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:073][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:073][688]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.06.21-22.19.41:083][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_1022.EdGraphPin_7613"''
-[2014.06.21-22.19.41:084][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SpawnActorFromClass_5.EdGraphPin_2067"''
-[2014.06.21-22.19.41:085][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4916.EdGraphPin_4618"''
-[2014.06.21-22.19.41:086][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_1022.EdGraphPin_7615"''
-[2014.06.21-22.19.41:087][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_1022.EdGraphPin_7614"''
-[2014.06.21-22.19.41:088][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4916.EdGraphPin_4618"''
-[2014.06.21-22.19.41:088][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_34.EdGraphPin_3197"''
-[2014.06.21-22.19.41:092][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3218.EdGraphPin_4152"''
-[2014.06.21-22.19.41:092][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_14.EdGraphPin_4648"''
-[2014.06.21-22.19.41:092][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_24486.EdGraphPin_5357"''
-[2014.06.21-22.19.41:093][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_EnumEquality_8.EdGraphPin_4651"''
-[2014.06.21-22.19.41:093][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_14.EdGraphPin_4646"''
-[2014.06.21-22.19.41:094][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_EnumEquality_8.EdGraphPin_4650"''
-[2014.06.21-22.19.41:096][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3682.EdGraphPin_4163"''
-[2014.06.21-22.19.41:097][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_24486.EdGraphPin_5356"''
-[2014.06.21-22.19.41:097][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_24451.EdGraphPin_5354"''
-[2014.06.21-22.19.41:098][688]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_24486.EdGraphPin_5358"''
-[2014.06.21-22.19.43:767][725]LogEditorTransaction: Undo Paste clipboard contents
-[2014.06.21-22.19.43:928][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2014.06.21-22.19.48:246][814]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.19.48:247][814]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.24.18:475][737]LogEditorTransaction: Undo Delete current selection
-[2014.06.21-22.24.18:508][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
-[2014.06.21-22.25.29:383][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
-[2014.06.21-22.25.29:931][384]LogSavePackage: Save=479.208954ms
-[2014.06.21-22.25.29:931][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto9A86CBCFF4B8E27B0C79C369B7CD36089.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto9.umap'
-[2014.06.21-22.25.29:937][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.554
-[2014.06.21-22.25.29:937][384]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.554
-[2014.06.21-22.25.29:945][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.25.29:998][384]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-22.25.29:998][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.25.30:000][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto9.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.25.30:428][384]LogSavePackage: Save=362.498138ms
-[2014.06.21-22.25.30:428][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto9EFA5789A4FF7A40ED9C28189C4D4DD16.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto9.uasset'
-[2014.06.21-22.25.30:439][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.25.30:484][384]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.25.30:484][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.25.30:814][384]LogSavePackage: Save=301.813629ms
-[2014.06.21-22.25.30:814][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto95B918AF64D2D15B7B616A2977D2B6DB8.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto9.uasset'
-[2014.06.21-22.25.30:825][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.25.30:868][384]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.25.30:868][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.25.31:183][384]LogSavePackage: Save=288.125641ms
-[2014.06.21-22.25.31:183][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto9FD65DF9F47A5389149A761A65609636D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto9.uasset'
-[2014.06.21-22.25.31:194][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.25.31:250][384]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.25.31:250][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.25.31:520][384]LogSavePackage: Save=255.283096ms
-[2014.06.21-22.25.31:520][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto96FBF7E6E4B8D11B0C493D89576B3A5F8.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto9.uasset'
-[2014.06.21-22.25.31:531][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.25.31:585][384]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.25.31:585][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.25.31:775][384]LogSavePackage: Save=176.213409ms
-[2014.06.21-22.25.31:775][384]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto9C122EC06444DCE45EF88C98D700B380A.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto9.uasset'
-[2014.06.21-22.25.31:779][384]LogFileHelpers: Auto-saving content packages took 1.843
-[2014.06.21-22.26.28:275][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
-[2014.06.21-22.27.13:835][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
-[2014.06.21-22.27.38:878][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
-[2014.06.21-22.27.45:447][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
-[2014.06.21-22.27.53:791][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
-[2014.06.21-22.34.21:707][ 46]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-22.34.47:755][430]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.34.47:756][430]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.36.34:478][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
-[2014.06.21-22.36.35:029][426]LogSavePackage: Save=447.561859ms
-[2014.06.21-22.36.35:029][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto072AB9CC64600DB6D8AC3E1BA21A3D38D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto0.umap'
-[2014.06.21-22.36.35:033][426]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.555
-[2014.06.21-22.36.35:033][426]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.555
-[2014.06.21-22.36.35:042][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.36.35:085][426]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-22.36.35:085][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.36.35:088][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto0.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.36.35:548][426]LogSavePackage: Save=372.664703ms
-[2014.06.21-22.36.35:548][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto05C91EA69434CCFCA25734DB93C51C0B8.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto0.uasset'
-[2014.06.21-22.36.35:559][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.36.35:605][426]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.36.35:605][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.36.35:935][426]LogSavePackage: Save=301.419128ms
-[2014.06.21-22.36.35:935][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto0661188E04E587EE62EF85BBDE3E3153C.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto0.uasset'
-[2014.06.21-22.36.35:946][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.36.35:990][426]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.36.35:990][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.36.36:349][426]LogSavePackage: Save=331.644989ms
-[2014.06.21-22.36.36:349][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto0FEF478064854150B94BED88603F82B0F.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto0.uasset'
-[2014.06.21-22.36.36:364][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.36.36:412][426]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.36.36:412][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.36.36:692][426]LogSavePackage: Save=257.289307ms
-[2014.06.21-22.36.36:692][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto0E8E34BEF4BCFAEE0A69EBCB6AD389344.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto0.uasset'
-[2014.06.21-22.36.36:703][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.36.36:755][426]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.36.36:755][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.36.36:943][426]LogSavePackage: Save=173.236725ms
-[2014.06.21-22.36.36:943][426]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto06A9C787846718F573244DDAA96D5A980.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto0.uasset'
-[2014.06.21-22.36.36:947][426]LogFileHelpers: Auto-saving content packages took 1.914
-[2014.06.21-22.39.03:615][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
-[2014.06.21-22.39.22:031][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
-[2014.06.21-22.39.23:228][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
-[2014.06.21-22.39.24:615][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
-[2014.06.21-22.39.34:359][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
-[2014.06.21-22.40.50:504][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
-[2014.06.21-22.40.52:766][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
-[2014.06.21-22.43.42:027][294]BlueprintLog: New page: Compile MyCharacter
-[2014.06.21-22.43.42:121][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
-[2014.06.21-22.43.42:445][294]BlueprintEditorCompileResults: Info [6854.87] Compile of MyCharacter successful! [in 38 ms]
-[2014.06.21-22.43.57:661][844]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.06.21-22.44.34:560][371]LogLinker: Can't find file '/Game/Blueprints/PProjectile'
-[2014.06.21-22.44.34:561][371]LogLinker: Can't find file '/Game/Blueprints/PProjectile'
-[2014.06.21-22.44.51:499][582]LogRenderer:Warning: Reallocating scene render targets to support 1344x720.
-[2014.06.21-22.46.04:642][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
-[2014.06.21-22.46.04:643][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
-[2014.06.21-22.46.37:310][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000297298A0
-[2014.06.21-22.46.37:911][874]LogSavePackage: Save=444.417664ms
-[2014.06.21-22.46.37:912][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto129BB1BA84343D76CBA162F858B9517E2.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
-[2014.06.21-22.46.37:917][874]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.738
-[2014.06.21-22.46.37:917][874]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.738
-[2014.06.21-22.46.37:925][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.46.37:978][874]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-22.46.37:978][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.46.37:980][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.46.38:383][874]LogSavePackage: Save=354.427277ms
-[2014.06.21-22.46.38:383][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto121C75F614A34255FAC310795027B2163.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
-[2014.06.21-22.46.38:395][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.46.38:447][874]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.46.38:447][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.46.38:705][874]LogSavePackage: Save=230.230209ms
-[2014.06.21-22.46.38:705][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto1CBB9E12046E707DE69BEB68C3892C622.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto1.uasset'
-[2014.06.21-22.46.38:716][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.46.38:766][874]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.46.38:766][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.46.39:087][874]LogSavePackage: Save=293.927948ms
-[2014.06.21-22.46.39:087][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto17BBCBE2F47F667E1DEC88D9598BCB57C.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto1.uasset'
-[2014.06.21-22.46.39:098][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.46.39:150][874]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.46.39:150][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.46.39:437][874]LogSavePackage: Save=259.825928ms
-[2014.06.21-22.46.39:437][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto1A3FCB5724F42F6E31278B68ACE217820.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto1.uasset'
-[2014.06.21-22.46.39:448][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.46.39:500][874]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.46.39:500][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.46.39:727][874]LogSavePackage: Save=198.618439ms
-[2014.06.21-22.46.39:727][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto1B7945F1A43FAF7BB2026738F121083BC.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto1.uasset'
-[2014.06.21-22.46.39:741][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PProjectile] ([1] browsable assets)...
-[2014.06.21-22.46.39:789][874]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PProjectile.PProjectile]
-[2014.06.21-22.46.39:789][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PProjectile]
-[2014.06.21-22.46.39:792][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PProjectile" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/PProjectile_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.46.40:198][874]LogSavePackage: Save=385.768127ms
-[2014.06.21-22.46.40:199][874]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//PProjectile_Auto1405149764F2D2446D95CF49324721CF6.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/PProjectile_Auto1.uasset'
-[2014.06.21-22.46.40:203][874]LogFileHelpers: Auto-saving content packages took 2.285
-[2014.06.21-22.47.19:414][215]LogEditorTransaction: Undo Modify Component(s)
-[2014.06.21-22.47.19:668][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
-[2014.06.21-22.47.25:206][307]LogEditorTransaction: Undo Modify Component(s)
-[2014.06.21-22.47.25:877][336]LogEditorTransaction: Undo Add Component
-[2014.06.21-22.49.16:080][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
-[2014.06.21-22.49.21:589][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
-[2014.06.21-22.49.44:693][134]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling.
-[2014.06.21-22.49.44:706][134]LogStaticMesh: Building static mesh Shape_Cone...
-[2014.06.21-22.49.44:770][134]LogStaticMesh: Built static mesh [64.708015ms] /Game/Shapes/Shape_Cone.Shape_Cone
-[2014.06.21-22.49.44:799][134]LogActorFactory: Actor Factory created Shape_Cone
-[2014.06.21-22.49.47:805][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.49.47:807][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-22.50.03:690][448]LogActorFactory: Actor Factory created Shape_Cone
-[2014.06.21-22.50.05:390][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
-[2014.06.21-22.50.05:390][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
-[2014.06.21-22.51.27:180][322]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.51.27:545][322]BlueprintEditorCompileResults: Info [7319.97] Compile of PProjectile successful! [in 1 ms]
-[2014.06.21-22.52.35:570][277]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.52.35:954][277]BlueprintEditorCompileResults: Info [7388.36] Compile of PProjectile successful! [in 1 ms]
-[2014.06.21-22.53.41:747][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PProjectile" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset" SILENT=true
-[2014.06.21-22.53.42:162][965]LogSavePackage: Save=409.835358ms
-[2014.06.21-22.53.42:162][965]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//PProjectileB3A2DCEF43CECB0E75056DA54C5CE757.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset'
-[2014.06.21-22.53.43:548][978]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.53.43:598][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
-[2014.06.21-22.53.43:931][978]BlueprintEditorCompileResults: Info [7456.33] Compile of PProjectile successful! [in 0 ms]
-[2014.06.21-22.54.13:624][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.06.21-22.54.29:077][423]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.54.29:077][423]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 12:54:29 PM)
-[2014.06.21-22.54.29:103][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025179s)
-[2014.06.21-22.54.29:104][423]LogPlayLevel: PIE: World Init took: (0.001675s)
-[2014.06.21-22.54.29:105][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.027119s)
-[2014.06.21-22.54.29:105][423]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.54.29:105][423]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.54.29:135][423]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.54.29
-[2014.06.21-22.54.29:135][423]LogWorld: Bringing up level for play took: 0.003236
-[2014.06.21-22.54.29:139][423]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.781
-[2014.06.21-22.54.29:143][423]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.54.31:581][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
-[2014.06.21-22.54.31:581][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
-[2014.06.21-22.54.31:581][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
-[2014.06.21-22.54.31:603][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCCAAC0
-[2014.06.21-22.54.31:603][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011984180
-[2014.06.21-22.54.40:813][582]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.54.40:813][582]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 12:54:40 PM)
-[2014.06.21-22.54.40:836][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023257s)
-[2014.06.21-22.54.40:837][582]LogPlayLevel: PIE: World Init took: (0.000700s)
-[2014.06.21-22.54.40:837][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024168s)
-[2014.06.21-22.54.40:837][582]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.54.40:838][582]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.54.40:920][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.54.40
-[2014.06.21-22.54.40:920][582]LogWorld: Bringing up level for play took: 0.003360
-[2014.06.21-22.54.40:924][582]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.004
-[2014.06.21-22.54.40:928][582]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.54.44:582][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F8D9F80
-[2014.06.21-22.54.45:519][650]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.54.45:519][650]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 12:54:45 PM)
-[2014.06.21-22.54.45:542][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022369s)
-[2014.06.21-22.54.45:543][650]LogPlayLevel: PIE: World Init took: (0.000668s)
-[2014.06.21-22.54.45:543][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023252s)
-[2014.06.21-22.54.45:543][650]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.54.45:543][650]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.54.45:623][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.54.45
-[2014.06.21-22.54.45:624][650]LogWorld: Bringing up level for play took: 0.002950
-[2014.06.21-22.54.45:627][650]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.293
-[2014.06.21-22.54.45:631][650]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_18"
-[2014.06.21-22.55.02:533][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCCAF20
-[2014.06.21-22.55.02:549][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F8DBCE0
-[2014.06.21-22.57.08:624][458]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.57.08:698][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
-[2014.06.21-22.57.08:698][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
-[2014.06.21-22.57.08:698][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
-[2014.06.21-22.57.08:983][458]BlueprintEditorCompileResults: Info [7661.40] Compile of PProjectile successful! [in 1 ms]
-[2014.06.21-22.57.10:133][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PProjectile" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset" SILENT=true
-[2014.06.21-22.57.10:651][467]LogSavePackage: Save=491.952759ms
-[2014.06.21-22.57.10:651][467]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//PProjectile1797D9334B19609BA6942F88D78442DC.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset'
-[2014.06.21-22.57.14:838][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
-[2014.06.21-22.57.15:625][501]LogSavePackage: Save=454.828094ms
-[2014.06.21-22.57.15:625][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto237F25C424D85177E1878EEA815302DC7.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
-[2014.06.21-22.57.15:631][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.793
-[2014.06.21-22.57.15:631][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.793
-[2014.06.21-22.57.15:642][501]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-22.57.15:657][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-22.57.15:660][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-22.57.15:732][501]LogSavePackage: Save=57.488998ms
-[2014.06.21-22.57.15:732][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto24571052C4FAD320AAC9161B3C2D0E19A.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset'
-[2014.06.21-22.57.15:744][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-22.57.15:808][501]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-22.57.15:808][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-22.57.16:083][501]LogSavePackage: Save=242.087311ms
-[2014.06.21-22.57.16:083][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto2880E91DC495D265D214A78B47CDD6C6E.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto2.uasset'
-[2014.06.21-22.57.16:096][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-22.57.16:145][501]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-22.57.16:145][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-22.57.16:468][501]LogSavePackage: Save=294.519897ms
-[2014.06.21-22.57.16:468][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto23BF939874745DEFA902924BD90B61A36.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto2.uasset'
-[2014.06.21-22.57.16:480][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-22.57.16:531][501]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-22.57.16:531][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-22.57.16:814][501]LogSavePackage: Save=256.388214ms
-[2014.06.21-22.57.16:814][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto2AEF14C4C499E03C5042EC59560ACC97D.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto2.uasset'
-[2014.06.21-22.57.16:830][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-22.57.16:882][501]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-22.57.16:882][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-22.57.17:114][501]LogSavePackage: Save=187.529846ms
-[2014.06.21-22.57.17:114][501]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto29995ECE3481677C9ADBDA78C461A87A1.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto2.uasset'
-[2014.06.21-22.57.17:120][501]LogFileHelpers: Auto-saving content packages took 1.489
-[2014.06.21-22.57.41:669][831]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.57.41:670][831]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 12:57:41 PM)
-[2014.06.21-22.57.41:694][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024089s)
-[2014.06.21-22.57.41:695][831]LogPlayLevel: PIE: World Init took: (0.000819s)
-[2014.06.21-22.57.41:695][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025158s)
-[2014.06.21-22.57.41:695][831]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.57.41:695][831]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_0"
-[2014.06.21-22.57.41:771][831]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.57.41
-[2014.06.21-22.57.41:771][831]LogWorld: Bringing up level for play took: 0.003552
-[2014.06.21-22.57.41:775][831]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.149
-[2014.06.21-22.57.41:779][831]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_0"
-[2014.06.21-22.57.45:535][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A660EA0
-[2014.06.21-22.57.45:536][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000347E9440
-[2014.06.21-22.57.46:661][903]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-22.57.46:661][903]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 12:57:46 PM)
-[2014.06.21-22.57.46:684][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023279s)
-[2014.06.21-22.57.46:685][903]LogPlayLevel: PIE: World Init took: (0.000781s)
-[2014.06.21-22.57.46:685][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024308s)
-[2014.06.21-22.57.46:686][903]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-22.57.46:686][903]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_0"
-[2014.06.21-22.57.46:760][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-17.57.46
-[2014.06.21-22.57.46:760][903]LogWorld: Bringing up level for play took: 0.003401
-[2014.06.21-22.57.46:764][903]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.839
-[2014.06.21-22.57.46:768][903]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_0"
-[2014.06.21-22.58.31:277][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCCBC40
-[2014.06.21-22.59.06:903][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
-[2014.06.21-22.59.06:903][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
-[2014.06.21-22.59.06:903][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
-[2014.06.21-22.59.27:400][ 70]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.59.27:473][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
-[2014.06.21-22.59.27:780][ 70]BlueprintEditorCompileResults: Info [7800.18] Compile of PProjectile successful! [in 0 ms]
-[2014.06.21-22.59.45:436][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
-[2014.06.21-22.59.47:434][295]BlueprintLog: New page: Compile PProjectile
-[2014.06.21-22.59.47:489][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
-[2014.06.21-22.59.47:811][295]BlueprintEditorCompileResults: Info [7820.21] Compile of PProjectile successful! [in 0 ms]
-[2014.06.21-23.00.12:941][618]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.00.12:941][618]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 1:00:12 PM)
-[2014.06.21-23.00.12:964][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022770s)
-[2014.06.21-23.00.12:964][618]LogPlayLevel: PIE: World Init took: (0.000717s)
-[2014.06.21-23.00.12:964][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023697s)
-[2014.06.21-23.00.12:965][618]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.00.12:965][618]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.13:016][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.00.13
-[2014.06.21-23.00.13:017][618]LogWorld: Bringing up level for play took: 0.002923
-[2014.06.21-23.00.13:020][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.907
-[2014.06.21-23.00.13:025][618]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.15:465][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
-[2014.06.21-23.00.15:507][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C453A0
-[2014.06.21-23.00.15:507][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F541440
-[2014.06.21-23.00.16:607][666]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.00.16:608][666]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 1:00:16 PM)
-[2014.06.21-23.00.16:636][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027678s)
-[2014.06.21-23.00.16:637][666]LogPlayLevel: PIE: World Init took: (0.000633s)
-[2014.06.21-23.00.16:637][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.028524s)
-[2014.06.21-23.00.16:637][666]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.00.16:637][666]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.16:714][666]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.00.16
-[2014.06.21-23.00.16:714][666]LogWorld: Bringing up level for play took: 0.002952
-[2014.06.21-23.00.16:718][666]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.79
-[2014.06.21-23.00.16:722][666]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.35:961][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C45D00
-[2014.06.21-23.00.37:849][960]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.00.37:850][960]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 1:00:37 PM)
-[2014.06.21-23.00.37:874][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024327s)
-[2014.06.21-23.00.37:875][960]LogPlayLevel: PIE: World Init took: (0.000541s)
-[2014.06.21-23.00.37:875][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025072s)
-[2014.06.21-23.00.37:875][960]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.00.37:875][960]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.37:934][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.00.37
-[2014.06.21-23.00.37:935][960]LogWorld: Bringing up level for play took: 0.005721
-[2014.06.21-23.00.37:941][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.012
-[2014.06.21-23.00.37:949][960]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.43:769][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C47D80
-[2014.06.21-23.00.44:343][ 46]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.00.44:344][ 46]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 1:00:44 PM)
-[2014.06.21-23.00.44:379][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035351s)
-[2014.06.21-23.00.44:380][ 46]LogPlayLevel: PIE: World Init took: (0.000681s)
-[2014.06.21-23.00.44:380][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036325s)
-[2014.06.21-23.00.44:380][ 46]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.00.44:381][ 46]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.44:408][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.00.44
-[2014.06.21-23.00.44:408][ 46]LogWorld: Bringing up level for play took: 0.003401
-[2014.06.21-23.00.44:412][ 46]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.483
-[2014.06.21-23.00.44:416][ 46]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.47:539][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C462A0
-[2014.06.21-23.00.48:423][100]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.00.48:423][100]PIE: New page: SIE session: Example_Map (Jun 21, 2014, 1:00:48 PM)
-[2014.06.21-23.00.48:450][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027564s)
-[2014.06.21-23.00.48:451][100]LogPlayLevel: PIE: World Init took: (0.000726s)
-[2014.06.21-23.00.48:451][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.028510s)
-[2014.06.21-23.00.48:452][100]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.00.48:452][100]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.48:480][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.00.48
-[2014.06.21-23.00.48:480][100]LogWorld: Bringing up level for play took: 0.003195
-[2014.06.21-23.00.48:484][100]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.556
-[2014.06.21-23.00.48:488][100]LogSelection:Warning: PIE object was selected: "PProjectile_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PProjectile_C_2"
-[2014.06.21-23.00.50:797][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C47EC0
-[2014.06.21-23.02.40:635][844]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.06.21-23.02.44:700][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.06.21-23.03.56:848][820]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.06.21-23.04.47:627][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_21) Not registered. Aborting.
-[2014.06.21-23.04.47:627][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_22) Not registered. Aborting.
-[2014.06.21-23.04.47:627][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
-[2014.06.21-23.04.48:105][ 74]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-23.04.48:106][ 74]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-23.04.53:374][140]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
-[2014.06.21-23.08.38:932][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
-[2014.06.21-23.08.38:960][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F5416C0
-[2014.06.21-23.08.39:578][215]LogSavePackage: Save=468.858459ms
-[2014.06.21-23.08.39:578][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_Map_Auto3421FB8AC430F15A2FC197F95C0D94DFF.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
-[2014.06.21-23.08.39:583][215]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.651
-[2014.06.21-23.08.39:583][215]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.651
-[2014.06.21-23.08.39:592][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
-[2014.06.21-23.08.39:638][215]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
-[2014.06.21-23.08.39:638][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
-[2014.06.21-23.08.39:640][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-23.08.40:019][215]LogSavePackage: Save=353.203125ms
-[2014.06.21-23.08.40:019][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter_Auto33380DD1D4E88CC6861F56398ED6259DB.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
-[2014.06.21-23.08.40:030][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
-[2014.06.21-23.08.40:089][215]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
-[2014.06.21-23.08.40:089][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Brick_Clay_Old_Mat]
-[2014.06.21-23.08.40:462][215]LogSavePackage: Save=345.589172ms
-[2014.06.21-23.08.40:463][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat_Auto3421533864784F8A611945487CFE15B46.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Brick_Clay_Old_Mat_Auto3.uasset'
-[2014.06.21-23.08.40:488][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_CobbleStone_Rough_Mat] ([1] browsable assets)...
-[2014.06.21-23.08.40:545][215]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_CobbleStone_Rough_Mat.T_CobbleStone_Rough_Mat]
-[2014.06.21-23.08.40:545][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_CobbleStone_Rough_Mat]
-[2014.06.21-23.08.40:853][215]LogSavePackage: Save=285.440826ms
-[2014.06.21-23.08.40:853][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat_Auto38B825970460C64CF25551B9C158E56F2.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_CobbleStone_Rough_Mat_Auto3.uasset'
-[2014.06.21-23.08.40:864][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Tech_Dot_Mat] ([1] browsable assets)...
-[2014.06.21-23.08.40:907][215]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Tech_Dot_Mat.T_Tech_Dot_Mat]
-[2014.06.21-23.08.40:907][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Tech_Dot_Mat]
-[2014.06.21-23.08.41:194][215]LogSavePackage: Save=259.640381ms
-[2014.06.21-23.08.41:194][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat_Auto317355DC345123CC5C82AB8BF7064A6B8.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Tech_Dot_Mat_Auto3.uasset'
-[2014.06.21-23.08.41:205][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/T_Wood_Oak_Mat] ([1] browsable assets)...
-[2014.06.21-23.08.41:257][215]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/T_Wood_Oak_Mat.T_Wood_Oak_Mat]
-[2014.06.21-23.08.41:257][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/T_Wood_Oak_Mat]
-[2014.06.21-23.08.41:444][215]LogSavePackage: Save=174.829544ms
-[2014.06.21-23.08.41:444][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_Mat_Auto3DC62645647854214019CC99A6BE05D1B.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Textures/T_Wood_Oak_Mat_Auto3.uasset'
-[2014.06.21-23.08.41:455][215]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PProjectile] ([1] browsable assets)...
-[2014.06.21-23.08.41:507][215]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PProjectile.PProjectile]
-[2014.06.21-23.08.41:507][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PProjectile]
-[2014.06.21-23.08.41:509][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PProjectile" FILE="../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/PProjectile_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2014.06.21-23.08.42:001][215]LogSavePackage: Save=465.421570ms
-[2014.06.21-23.08.42:001][215]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//PProjectile_Auto30B2E56724822D50F1186829750DA8440.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/PProjectile_Auto3.uasset'
-[2014.06.21-23.08.42:006][215]LogFileHelpers: Auto-saving content packages took 2.423
-[2014.06.21-23.10.26:940][457]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-23.11.29:329][950]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.06.21-23.14.46:832][ 24]BlueprintLog: New page: Compile MyCharacter
-[2014.06.21-23.14.46:931][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
-[2014.06.21-23.14.46:931][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_23) Not registered. Aborting.
-[2014.06.21-23.14.47:245][ 24]BlueprintEditorCompileResults: Info [8719.64] Compile of MyCharacter successful! [in 38 ms]
-[2014.06.21-23.14.49:451][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.06.21-23.14.49:820][ 52]LogSavePackage: Save=361.734985ms
-[2014.06.21-23.14.49:820][ 52]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacter00BA6EAE4F8BB22558738B8F655D639C.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset'
-[2014.06.21-23.14.54:707][117]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.14.54:707][117]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 1:14:54 PM)
-[2014.06.21-23.14.54:742][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034587s)
-[2014.06.21-23.14.54:743][117]LogPlayLevel: PIE: World Init took: (0.001375s)
-[2014.06.21-23.14.54:743][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036214s)
-[2014.06.21-23.14.54:743][117]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.14.54:771][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.14.54
-[2014.06.21-23.14.54:772][117]LogWorld: Bringing up level for play took: 0.002917
-[2014.06.21-23.14.54:772][117]LogGameMode: RestartPlayer 273
-[2014.06.21-23.14.54:773][117]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.06.21-23.14.54:773][117]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.06.21-23.14.54:777][117]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.829
-[2014.06.21-23.14.56:892][155]LogBlueprintUserMessages: 2
-[2014.06.21-23.14.58:044][177]LogBlueprintUserMessages: 3
-[2014.06.21-23.14.58:314][182]LogBlueprintUserMessages: 4
-[2014.06.21-23.14.58:531][186]LogBlueprintUserMessages: 5
-[2014.06.21-23.14.58:804][191]LogBlueprintUserMessages: 6
-[2014.06.21-23.14.59:132][197]LogBlueprintUserMessages: 7
-[2014.06.21-23.14.59:404][202]LogBlueprintUserMessages: 8
-[2014.06.21-23.14.59:623][206]LogBlueprintUserMessages: 9
-[2014.06.21-23.14.59:891][211]LogBlueprintUserMessages: 10
-[2014.06.21-23.15.00:160][216]LogBlueprintUserMessages: 11
-[2014.06.21-23.15.05:310][313]LogBlueprintUserMessages: 12
-[2014.06.21-23.15.05:629][319]LogBlueprintUserMessages: 13
-[2014.06.21-23.15.05:842][323]LogBlueprintUserMessages: 14
-[2014.06.21-23.15.06:055][327]LogBlueprintUserMessages: 15
-[2014.06.21-23.15.06:322][332]LogBlueprintUserMessages: 16
-[2014.06.21-23.15.06:641][338]LogBlueprintUserMessages: 17
-[2014.06.21-23.15.06:856][342]LogBlueprintUserMessages: 18
-[2014.06.21-23.15.07:124][347]LogBlueprintUserMessages: 19
-[2014.06.21-23.15.07:340][351]LogBlueprintUserMessages: 20
-[2014.06.21-23.15.07:608][356]LogBlueprintUserMessages: 21
-[2014.06.21-23.15.07:823][360]LogBlueprintUserMessages: 22
-[2014.06.21-23.15.08:038][364]LogBlueprintUserMessages: 23
-[2014.06.21-23.15.08:306][369]LogBlueprintUserMessages: 24
-[2014.06.21-23.15.08:522][373]LogBlueprintUserMessages: 25
-[2014.06.21-23.15.10:178][404]LogBlueprintUserMessages: 26
-[2014.06.21-23.15.10:449][409]LogBlueprintUserMessages: 27
-[2014.06.21-23.15.10:720][414]LogBlueprintUserMessages: 28
-[2014.06.21-23.15.11:044][420]LogBlueprintUserMessages: 29
-[2014.06.21-23.15.11:314][425]LogBlueprintUserMessages: 30
-[2014.06.21-23.15.11:584][430]LogBlueprintUserMessages: 31
-[2014.06.21-23.15.11:907][436]LogBlueprintUserMessages: 32
-[2014.06.21-23.15.15:229][498]LogBlueprintUserMessages: 33
-[2014.06.21-23.15.23:595][654]LogBlueprintUserMessages: 34
-[2014.06.21-23.15.23:865][659]LogBlueprintUserMessages: 35
-[2014.06.21-23.15.24:136][664]LogBlueprintUserMessages: 36
-[2014.06.21-23.15.24:463][670]LogBlueprintUserMessages: 37
-[2014.06.21-23.15.24:680][674]LogBlueprintUserMessages: 38
-[2014.06.21-23.15.25:005][680]LogBlueprintUserMessages: 39
-[2014.06.21-23.15.25:330][686]LogBlueprintUserMessages: 40
-[2014.06.21-23.15.26:087][700]LogBlueprintUserMessages: 41
-[2014.06.21-23.15.26:357][705]LogBlueprintUserMessages: 42
-[2014.06.21-23.15.26:576][709]LogBlueprintUserMessages: 43
-[2014.06.21-23.15.26:738][712]LogBlueprintUserMessages: 44
-[2014.06.21-23.15.26:955][716]LogBlueprintUserMessages: 45
-[2014.06.21-23.15.27:120][719]LogBlueprintUserMessages: 46
-[2014.06.21-23.15.27:447][725]LogBlueprintUserMessages: 47
-[2014.06.21-23.15.27:723][730]LogBlueprintUserMessages: 48
-[2014.06.21-23.15.28:000][735]LogBlueprintUserMessages: 49
-[2014.06.21-23.15.28:276][740]LogBlueprintUserMessages: 50
-[2014.06.21-23.15.28:602][746]LogBlueprintUserMessages: 51
-[2014.06.21-23.15.28:922][752]LogBlueprintUserMessages: 52
-[2014.06.21-23.15.29:243][758]LogBlueprintUserMessages: 53
-[2014.06.21-23.15.29:514][763]LogBlueprintUserMessages: 54
-[2014.06.21-23.15.29:888][770]LogBlueprintUserMessages: 55
-[2014.06.21-23.15.30:254][777]LogBlueprintUserMessages: 56
-[2014.06.21-23.15.30:671][785]LogBlueprintUserMessages: 57
-[2014.06.21-23.15.30:987][791]LogBlueprintUserMessages: 58
-[2014.06.21-23.15.31:301][797]LogBlueprintUserMessages: 59
-[2014.06.21-23.15.31:664][804]LogBlueprintUserMessages: 60
-[2014.06.21-23.15.32:029][811]LogBlueprintUserMessages: 61
-[2014.06.21-23.15.32:289][816]LogBlueprintUserMessages: 62
-[2014.06.21-23.15.32:598][822]LogBlueprintUserMessages: 63
-[2014.06.21-23.15.32:914][828]LogBlueprintUserMessages: 64
-[2014.06.21-23.15.33:978][848]LogBlueprintUserMessages: 65
-[2014.06.21-23.15.34:303][854]LogBlueprintUserMessages: 66
-[2014.06.21-23.15.34:571][859]LogBlueprintUserMessages: 67
-[2014.06.21-23.15.34:946][866]LogBlueprintUserMessages: 68
-[2014.06.21-23.15.35:267][872]LogBlueprintUserMessages: 69
-[2014.06.21-23.15.35:693][880]LogBlueprintUserMessages: 70
-[2014.06.21-23.15.36:138][888]LogBlueprintUserMessages: 71
-[2014.06.21-23.15.36:777][900]LogBlueprintUserMessages: 72
-[2014.06.21-23.15.37:666][916]LogBlueprintUserMessages: 73
-[2014.06.21-23.15.37:994][922]LogBlueprintUserMessages: 74
-[2014.06.21-23.15.39:064][942]LogBlueprintUserMessages: 75
-[2014.06.21-23.15.39:470][950]LogBlueprintUserMessages: 76
-[2014.06.21-23.15.39:772][956]LogBlueprintUserMessages: 77
-[2014.06.21-23.15.40:276][966]LogBlueprintUserMessages: 78
-[2014.06.21-23.15.40:591][972]LogBlueprintUserMessages: 79
-[2014.06.21-23.15.41:074][981]LogBlueprintUserMessages: 80
-[2014.06.21-23.15.41:396][987]LogBlueprintUserMessages: 81
-[2014.06.21-23.15.41:659][992]LogBlueprintUserMessages: 82
-[2014.06.21-23.15.42:081][  0]LogBlueprintUserMessages: 83
-[2014.06.21-23.15.42:497][  8]LogBlueprintUserMessages: 84
-[2014.06.21-23.15.43:067][ 19]LogBlueprintUserMessages: 85
-[2014.06.21-23.15.43:480][ 27]LogBlueprintUserMessages: 86
-[2014.06.21-23.15.43:839][ 34]LogBlueprintUserMessages: 87
-[2014.06.21-23.15.46:921][ 93]LogBlueprintUserMessages: 88
-[2014.06.21-23.15.47:246][ 99]LogBlueprintUserMessages: 89
-[2014.06.21-23.15.47:514][104]LogBlueprintUserMessages: 90
-[2014.06.21-23.15.47:838][110]LogBlueprintUserMessages: 91
-[2014.06.21-23.15.48:107][115]LogBlueprintUserMessages: 92
-[2014.06.21-23.15.48:377][120]LogBlueprintUserMessages: 93
-[2014.06.21-23.15.48:915][130]LogBlueprintUserMessages: 94
-[2014.06.21-23.15.49:233][136]LogBlueprintUserMessages: 95
-[2014.06.21-23.15.49:752][146]LogBlueprintUserMessages: 96
-[2014.06.21-23.15.50:010][151]LogBlueprintUserMessages: 97
-[2014.06.21-23.15.50:216][155]LogBlueprintUserMessages: 98
-[2014.06.21-23.15.50:424][159]LogBlueprintUserMessages: 99
-[2014.06.21-23.15.50:684][164]LogBlueprintUserMessages: 100
-[2014.06.21-23.15.50:947][169]LogBlueprintUserMessages: 101
-[2014.06.21-23.15.51:269][175]LogBlueprintUserMessages: 102
-[2014.06.21-23.15.51:540][180]LogBlueprintUserMessages: 103
-[2014.06.21-23.15.51:864][186]LogBlueprintUserMessages: 104
-[2014.06.21-23.15.52:131][191]LogBlueprintUserMessages: 105
-[2014.06.21-23.15.52:448][197]LogBlueprintUserMessages: 106
-[2014.06.21-23.15.54:573][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
-[2014.06.21-23.15.54:626][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011984180
-[2014.06.21-23.15.57:710][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F7849A0
-[2014.06.21-23.16.13:245][585]BlueprintLog: New page: Compile MyCharacter
-[2014.06.21-23.16.13:327][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_24) Not registered. Aborting.
-[2014.06.21-23.16.13:327][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_25) Not registered. Aborting.
-[2014.06.21-23.16.13:327][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
-[2014.06.21-23.16.13:647][585]BlueprintEditorCompileResults: Info [8806.04] Compile of MyCharacter successful! [in 37 ms]
-[2014.06.21-23.16.14:643][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.06.21-23.16.15:014][596]LogSavePackage: Save=362.079803ms
-[2014.06.21-23.16.15:014][596]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//MyCharacterD127A9584DED866C67484D968A86D6F0.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharacter.uasset'
-[2014.06.21-23.16.20:716][673]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.21-23.16.20:716][673]PIE: New page: PIE session: Example_Map (Jun 21, 2014, 1:16:20 PM)
-[2014.06.21-23.16.20:742][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025578s)
-[2014.06.21-23.16.20:743][673]LogPlayLevel: PIE: World Init took: (0.000661s)
-[2014.06.21-23.16.20:743][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.026456s)
-[2014.06.21-23.16.20:743][673]LogWorld: Game class is 'MyGame_C'
-[2014.06.21-23.16.20:819][673]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.21-18.16.20
-[2014.06.21-23.16.20:819][673]LogWorld: Bringing up level for play took: 0.003027
-[2014.06.21-23.16.20:819][673]LogGameMode: RestartPlayer 274
-[2014.06.21-23.16.20:820][673]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.06.21-23.16.20:820][673]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.06.21-23.16.20:823][673]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.875
-[2014.06.21-23.16.22:270][699]LogBlueprintUserMessages: 2
-[2014.06.21-23.16.22:276][699]LogBlueprintUserMessages: 3
-[2014.06.21-23.16.22:536][704]LogBlueprintUserMessages: 4
-[2014.06.21-23.16.22:589][705]LogBlueprintUserMessages: 5
-[2014.06.21-23.16.22:749][708]LogBlueprintUserMessages: 6
-[2014.06.21-23.16.22:910][711]LogBlueprintUserMessages: 7
-[2014.06.21-23.16.23:018][713]LogBlueprintUserMessages: 8
-[2014.06.21-23.16.23:394][720]LogBlueprintUserMessages: 9
-[2014.06.21-23.16.23:610][724]LogBlueprintUserMessages: 10
-[2014.06.21-23.16.23:817][728]LogBlueprintUserMessages: 11
-[2014.06.21-23.16.24:029][732]LogBlueprintUserMessages: 12
-[2014.06.21-23.16.24:188][735]LogBlueprintUserMessages: 13
-[2014.06.21-23.16.24:241][736]LogBlueprintUserMessages: 14
-[2014.06.21-23.16.24:453][740]LogBlueprintUserMessages: 15
-[2014.06.21-23.16.24:665][744]LogBlueprintUserMessages: 16
-[2014.06.21-23.16.24:876][748]LogBlueprintUserMessages: 17
-[2014.06.21-23.16.25:139][753]LogBlueprintUserMessages: 18
-[2014.06.21-23.16.25:297][756]LogBlueprintUserMessages: 19
-[2014.06.21-23.16.25:349][757]LogBlueprintUserMessages: 20
-[2014.06.21-23.16.25:507][760]LogBlueprintUserMessages: 21
-[2014.06.21-23.16.25:560][761]LogBlueprintUserMessages: 22
-[2014.06.21-23.16.25:718][764]LogBlueprintUserMessages: 23
-[2014.06.21-23.16.25:772][765]LogBlueprintUserMessages: 24
-[2014.06.21-23.16.25:932][768]LogBlueprintUserMessages: 25
-[2014.06.21-23.16.25:985][769]LogBlueprintUserMessages: 26
-[2014.06.21-23.16.26:092][771]LogBlueprintUserMessages: 27
-[2014.06.21-23.16.26:252][774]LogBlueprintUserMessages: 28
-[2014.06.21-23.16.26:252][774]LogBlueprintUserMessages: 29
-[2014.06.21-23.16.26:465][778]LogBlueprintUserMessages: 30
-[2014.06.21-23.16.26:519][779]LogBlueprintUserMessages: 31
-[2014.06.21-23.16.26:625][781]LogBlueprintUserMessages: 32
-[2014.06.21-23.16.26:785][784]LogBlueprintUserMessages: 33
-[2014.06.21-23.16.26:838][785]LogBlueprintUserMessages: 34
-[2014.06.21-23.16.27:053][789]LogBlueprintUserMessages: 35
-[2014.06.21-23.16.27:053][789]LogBlueprintUserMessages: 36
-[2014.06.21-23.16.27:213][792]LogBlueprintUserMessages: 37
-[2014.06.21-23.16.27:372][795]LogBlueprintUserMessages: 38
-[2014.06.21-23.16.27:425][796]LogBlueprintUserMessages: 39
-[2014.06.21-23.16.27:584][799]LogBlueprintUserMessages: 40
-[2014.06.21-23.16.27:637][800]LogBlueprintUserMessages: 41
-[2014.06.21-23.16.27:850][804]LogBlueprintUserMessages: 42
-[2014.06.21-23.16.27:850][804]LogBlueprintUserMessages: 43
-[2014.06.21-23.16.28:011][807]LogBlueprintUserMessages: 44
-[2014.06.21-23.16.28:117][809]LogBlueprintUserMessages: 45
-[2014.06.21-23.16.28:223][811]LogBlueprintUserMessages: 46
-[2014.06.21-23.16.28:383][814]LogBlueprintUserMessages: 47
-[2014.06.21-23.16.28:437][815]LogBlueprintUserMessages: 48
-[2014.06.21-23.16.28:649][819]LogBlueprintUserMessages: 49
-[2014.06.21-23.16.28:755][821]LogBlueprintUserMessages: 50
-[2014.06.21-23.16.29:700][839]LogBlueprintUserMessages: 51
-[2014.06.21-23.16.29:856][842]LogBlueprintUserMessages: 52
-[2014.06.21-23.16.29:908][843]LogBlueprintUserMessages: 53
-[2014.06.21-23.16.30:118][847]LogBlueprintUserMessages: 54
-[2014.06.21-23.16.30:223][849]LogBlueprintUserMessages: 55
-[2014.06.21-23.16.30:276][850]LogBlueprintUserMessages: 56
-[2014.06.21-23.16.30:435][853]LogBlueprintUserMessages: 57
-[2014.06.21-23.16.30:488][854]LogBlueprintUserMessages: 58
-[2014.06.21-23.16.30:648][857]LogBlueprintUserMessages: 59
-[2014.06.21-23.16.30:701][858]LogBlueprintUserMessages: 60
-[2014.06.21-23.16.30:807][860]LogBlueprintUserMessages: 61
-[2014.06.21-23.16.30:968][863]LogBlueprintUserMessages: 62
-[2014.06.21-23.16.31:023][864]LogBlueprintUserMessages: 63
-[2014.06.21-23.16.31:181][867]LogBlueprintUserMessages: 64
-[2014.06.21-23.16.31:182][867]LogBlueprintUserMessages: 65
-[2014.06.21-23.16.31:395][871]LogBlueprintUserMessages: 66
-[2014.06.21-23.16.31:449][872]LogBlueprintUserMessages: 67
-[2014.06.21-23.16.31:555][874]LogBlueprintUserMessages: 68
-[2014.06.21-23.16.31:662][876]LogBlueprintUserMessages: 69
-[2014.06.21-23.16.31:769][878]LogBlueprintUserMessages: 70
-[2014.06.21-23.16.31:929][881]LogBlueprintUserMessages: 71
-[2014.06.21-23.16.31:929][881]LogBlueprintUserMessages: 72
-[2014.06.21-23.16.32:089][884]LogBlueprintUserMessages: 73
-[2014.06.21-23.16.32:194][886]LogBlueprintUserMessages: 74
-[2014.06.21-23.16.32:248][887]LogBlueprintUserMessages: 75
-[2014.06.21-23.16.32:461][891]LogBlueprintUserMessages: 76
-[2014.06.21-23.16.32:462][891]LogBlueprintUserMessages: 77
-[2014.06.21-23.16.32:674][895]LogBlueprintUserMessages: 78
-[2014.06.21-23.16.32:674][895]LogBlueprintUserMessages: 79
-[2014.06.21-23.16.32:834][898]LogBlueprintUserMessages: 80
-[2014.06.21-23.16.32:939][900]LogBlueprintUserMessages: 81
-[2014.06.21-23.16.32:993][901]LogBlueprintUserMessages: 82
-[2014.06.21-23.16.33:154][904]LogBlueprintUserMessages: 83
-[2014.06.21-23.16.33:154][904]LogBlueprintUserMessages: 84
-[2014.06.21-23.16.33:367][908]LogBlueprintUserMessages: 85
-[2014.06.21-23.16.33:421][909]LogBlueprintUserMessages: 86
-[2014.06.21-23.16.33:581][912]LogBlueprintUserMessages: 87
-[2014.06.21-23.16.33:687][914]LogBlueprintUserMessages: 88
-[2014.06.21-23.16.33:741][915]LogBlueprintUserMessages: 89
-[2014.06.21-23.16.33:955][919]LogBlueprintUserMessages: 90
-[2014.06.21-23.16.33:955][919]LogBlueprintUserMessages: 91
-[2014.06.21-23.16.34:167][923]LogBlueprintUserMessages: 92
-[2014.06.21-23.16.34:273][925]LogBlueprintUserMessages: 93
-[2014.06.21-23.16.34:379][927]LogBlueprintUserMessages: 94
-[2014.06.21-23.16.34:592][931]LogBlueprintUserMessages: 95
-[2014.06.21-23.16.34:593][931]LogBlueprintUserMessages: 96
-[2014.06.21-23.16.34:804][935]LogBlueprintUserMessages: 97
-[2014.06.21-23.16.34:963][938]LogBlueprintUserMessages: 98
-[2014.06.21-23.16.35:069][940]LogBlueprintUserMessages: 99
-[2014.06.21-23.16.35:281][944]LogBlueprintUserMessages: 100
-[2014.06.21-23.16.35:281][944]LogBlueprintUserMessages: 101
-[2014.06.21-23.16.35:492][948]LogBlueprintUserMessages: 102
-[2014.06.21-23.16.35:704][952]LogBlueprintUserMessages: 103
-[2014.06.21-23.16.35:915][956]LogBlueprintUserMessages: 104
-[2014.06.21-23.16.36:075][959]LogBlueprintUserMessages: 105
-[2014.06.21-23.16.36:233][962]LogBlueprintUserMessages: 106
-[2014.06.21-23.16.36:443][966]LogBlueprintUserMessages: 107
-[2014.06.21-23.16.36:601][969]LogBlueprintUserMessages: 108
-[2014.06.21-23.16.36:759][972]LogBlueprintUserMessages: 109
-[2014.06.21-23.16.36:917][975]LogBlueprintUserMessages: 110
-[2014.06.21-23.16.37:076][978]LogBlueprintUserMessages: 111
-[2014.06.21-23.16.37:234][981]LogBlueprintUserMessages: 112
-[2014.06.21-23.16.37:446][985]LogBlueprintUserMessages: 113
-[2014.06.21-23.16.37:551][987]LogBlueprintUserMessages: 114
-[2014.06.21-23.16.37:762][991]LogBlueprintUserMessages: 115
-[2014.06.21-23.16.37:920][994]LogBlueprintUserMessages: 116
-[2014.06.21-23.16.46:834][163]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
-[2014.06.21-23.16.46:856][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031A89440
-[2014.06.21-23.16.46:875][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CA6520
-[2014.06.21-23.17.10:302][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_26) Not registered. Aborting.
-[2014.06.21-23.17.10:302][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_27) Not registered. Aborting.
-[2014.06.21-23.17.10:302][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
-[2014.06.21-23.17.10:505][643]LogSavePackage: Save=171.109802ms
-[2014.06.21-23.17.10:506][643]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//Example_MapCC0F0EB843608B11CF0525A527A97D90.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Maps/Example_Map.umap'
-[2014.06.21-23.19.47:853][569]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-23.19.47:854][569]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.21-23.19.49:960][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_28) Not registered. Aborting.
-[2014.06.21-23.19.49:960][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_29) Not registered. Aborting.
-[2014.06.21-23.19.49:960][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
-[2014.06.21-23.19.50:036][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Brick_Clay_Old_Mat" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Brick_Clay_Old_Mat.uasset" SILENT=true
-[2014.06.21-23.19.50:172][805]LogSavePackage: Save=134.545898ms
-[2014.06.21-23.19.50:172][805]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Brick_Clay_Old_Mat304B9CA943E2D0EC92AEC6A28FAF5207.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Brick_Clay_Old_Mat.uasset'
-[2014.06.21-23.19.50:217][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_CobbleStone_Rough_Mat" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_CobbleStone_Rough_Mat.uasset" SILENT=true
-[2014.06.21-23.19.50:558][805]LogSavePackage: Save=306.211975ms
-[2014.06.21-23.19.50:558][805]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_CobbleStone_Rough_Mat167DEF3F4182776CE8C6989745DA91BD.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_CobbleStone_Rough_Mat.uasset'
-[2014.06.21-23.19.50:608][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Tech_Dot_Mat" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Tech_Dot_Mat.uasset" SILENT=true
-[2014.06.21-23.19.50:920][805]LogSavePackage: Save=309.649658ms
-[2014.06.21-23.19.50:920][805]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Tech_Dot_Mat27B60D654ADD000E7ACE9C8FC9FBA645.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Tech_Dot_Mat.uasset'
-[2014.06.21-23.19.50:963][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Wood_Oak_Mat" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Wood_Oak_Mat.uasset" SILENT=true
-[2014.06.21-23.19.51:137][805]LogSavePackage: Save=171.475998ms
-[2014.06.21-23.19.51:137][805]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//T_Wood_Oak_MatDA4C473D47ADCE33503F75929BAC6A6C.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Textures/T_Wood_Oak_Mat.uasset'
-[2014.06.21-23.19.51:143][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PProjectile" FILE="../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset" SILENT=true
-[2014.06.21-23.19.51:160][805]LogSavePackage: Save=12.185915ms
-[2014.06.21-23.19.51:160][805]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/MyProject/Saved//PProjectileFA0C9AEC4FB041482305B8ADAAF2C261.tmp' to '../../../../../Documents/Unreal Projects/MyProject/Content/Blueprints/PProjectile.uasset'
-[2014.06.21-23.19.55:636][867]Cmd: QUIT_EDITOR
-[2014.06.21-23.19.55:836][867]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.06.21-23.19.55:882][867]LogExit: Preparing to exit.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:230][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:231][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:246][867]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.21-23.19.56:285][867]LogExit: Editor shut down
-[2014.06.21-23.19.56:286][867]LogExit: Transaction tracking system shut down
-[2014.06.21-23.19.56:287][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A23880
-[2014.06.21-23.19.56:287][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CBA8E00
-[2014.06.21-23.19.56:287][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A6627A0
-[2014.06.21-23.19.56:288][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E63EC0
-[2014.06.21-23.19.56:990][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CD384A0
-[2014.06.21-23.19.56:990][867]LogExit: Object subsystem successfully closed.
-[2014.06.21-23.19.57:649][867]LogModuleManager: Shutting down and abandoning module CrashTracker (145)
-[2014.06.21-23.19.57:649][867]LogModuleManager: Shutting down and abandoning module HTTP (144)
-[2014.06.21-23.19.57:662][867]LogModuleManager: Shutting down and abandoning module NewsFeed (143)
-[2014.06.21-23.19.57:672][867]LogModuleManager: Shutting down and abandoning module SceneOutliner (142)
-[2014.06.21-23.19.57:672][867]LogModuleManager: Shutting down and abandoning module EditorWidgets (141)
-[2014.06.21-23.19.57:672][867]LogModuleManager: Shutting down and abandoning module CollectionManager (140)
-[2014.06.21-23.19.57:678][867]LogModuleManager: Shutting down and abandoning module StatsViewer (139)
-[2014.06.21-23.19.57:691][867]LogModuleManager: Shutting down and abandoning module FoliageEdit (138)
-[2014.06.21-23.19.57:708][867]LogModuleManager: Shutting down and abandoning module LandscapeEditor (137)
-[2014.06.21-23.19.57:755][867]LogModuleManager: Shutting down and abandoning module MeshPaint (136)
-[2014.06.21-23.19.57:783][867]LogModuleManager: Shutting down and abandoning module GeometryMode (135)
-[2014.06.21-23.19.57:795][867]LogModuleManager: Shutting down and abandoning module TextureAlignMode (134)
-[2014.06.21-23.19.57:804][867]LogModuleManager: Shutting down and abandoning module BspMode (133)
-[2014.06.21-23.19.57:804][867]LogModuleManager: Shutting down and abandoning module PlacementMode (132)
-[2014.06.21-23.19.57:817][867]LogModuleManager: Shutting down and abandoning module AutomationWorker (131)
-[2014.06.21-23.19.57:817][867]LogModuleManager: Shutting down and abandoning module ViewportSnapping (130)
-[2014.06.21-23.19.57:817][867]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (129)
-[2014.06.21-23.19.57:828][867]LogModuleManager: Shutting down and abandoning module UndoHistory (128)
-[2014.06.21-23.19.57:828][867]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (127)
-[2014.06.21-23.19.57:828][867]LogModuleManager: Shutting down and abandoning module UserFeedback (126)
-[2014.06.21-23.19.57:838][867]LogModuleManager: Shutting down and abandoning module XmlParser (125)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (124)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module Blutility (123)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (122)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (121)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (118)
-[2014.06.21-23.19.57:847][867]LogModuleManager: Shutting down and abandoning module InputBindingEditor (117)
-[2014.06.21-23.19.57:867][867]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (116)
-[2014.06.21-23.19.57:867][867]LogModuleManager: Shutting down and abandoning module SettingsEditor (115)
-[2014.06.21-23.19.57:884][867]LogModuleManager: Shutting down and abandoning module SessionLauncher (114)
-[2014.06.21-23.19.57:897][867]LogModuleManager: Shutting down and abandoning module SessionFrontend (113)
-[2014.06.21-23.19.57:905][867]LogModuleManager: Shutting down and abandoning module ProfilerClient (112)
-[2014.06.21-23.19.57:919][867]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (111)
-[2014.06.21-23.19.57:934][867]LogModuleManager: Shutting down and abandoning module DeviceManager (110)
-[2014.06.21-23.19.57:945][867]LogModuleManager: Shutting down and abandoning module AutomationController (109)
-[2014.06.21-23.19.57:965][867]LogModuleManager: Shutting down and abandoning module AutomationWindow (108)
-[2014.06.21-23.19.57:985][867]LogModuleManager: Shutting down and abandoning module Layers (107)
-[2014.06.21-23.19.57:999][867]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (106)
-[2014.06.21-23.19.57:999][867]LogModuleManager: Shutting down and abandoning module DetailCustomizations (105)
-[2014.06.21-23.19.57:999][867]LogModuleManager: Shutting down and abandoning module PackagesDialog (104)
-[2014.06.21-23.19.57:999][867]LogModuleManager: Shutting down and abandoning module PropertyEditor (103)
-[2014.06.21-23.19.57:999][867]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
-[2014.06.21-23.19.58:000][867]LogModuleManager: Shutting down and abandoning module AssetRegistry (101)
-[2014.06.21-23.19.58:036][867]LogModuleManager: Shutting down and abandoning module Persona (100)
-[2014.06.21-23.19.58:054][867]LogModuleManager: Shutting down and abandoning module GraphEditor (99)
-[2014.06.21-23.19.58:054][867]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
-[2014.06.21-23.19.58:054][867]LogModuleManager: Shutting down and abandoning module ClassViewer (97)
-[2014.06.21-23.19.58:054][867]LogModuleManager: Shutting down and abandoning module Toolbox (96)
-[2014.06.21-23.19.58:054][867]LogModuleManager: Shutting down and abandoning module ModuleUI (95)
-[2014.06.21-23.19.58:065][867]LogModuleManager: Shutting down and abandoning module Sequencer (94)
-[2014.06.21-23.19.58:083][867]LogModuleManager: Shutting down and abandoning module AssetTools (93)
-[2014.06.21-23.19.58:112][867]LogModuleManager: Shutting down and abandoning module MovieSceneTools (92)
-[2014.06.21-23.19.58:120][867]LogModuleManager: Shutting down and abandoning module OutputLog (91)
-[2014.06.21-23.19.58:128][867]LogModuleManager: Shutting down and abandoning module GammaUI (90)
-[2014.06.21-23.19.58:138][867]LogModuleManager: Shutting down and abandoning module Documentation (89)
-[2014.06.21-23.19.58:138][867]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
-[2014.06.21-23.19.58:152][867]LogModuleManager: Shutting down and abandoning module ProfilerService (87)
-[2014.06.21-23.19.58:259][867]LogModuleManager: Shutting down and abandoning module TaskGraph (86)
-[2014.06.21-23.19.58:341][867]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
-[2014.06.21-23.19.58:439][867]LogModuleManager: Shutting down and abandoning module Matinee (84)
-[2014.06.21-23.19.58:483][867]LogModuleManager: Shutting down and abandoning module Kismet (83)
-[2014.06.21-23.19.58:504][867]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
-[2014.06.21-23.19.58:505][867]LogModuleManager: Shutting down and abandoning module MainFrame (81)
-[2014.06.21-23.19.58:535][867]LogModuleManager: Shutting down and abandoning module SourceControl (80)
-[2014.06.21-23.19.58:554][867]LogModuleManager: Shutting down and abandoning module ImageWrapper (79)
-[2014.06.21-23.19.58:554][867]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
-[2014.06.21-23.19.58:554][867]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
-[2014.06.21-23.19.58:577][867]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (76)
-[2014.06.21-23.19.58:577][867]LogModuleManager: Shutting down and abandoning module MessageLog (75)
-[2014.06.21-23.19.58:577][867]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2014.06.21-23.19.58:577][867]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
-[2014.06.21-23.19.58:580][867]LogModuleManager: Shutting down and abandoning module SessionServices (72)
-[2014.06.21-23.19.58:580][867]LogModuleManager: Shutting down and abandoning module VSAccessor (71)
-[2014.06.21-23.19.58:607][867]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (70)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module XAudio2 (69)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module Networking (68)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module Core (67)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module KismetCompiler (66)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module PhysXFormats (65)
-[2014.06.21-23.19.58:608][867]LogModuleManager: Shutting down and abandoning module MeshUtilities (64)
-[2014.06.21-23.19.58:647][867]LogModuleManager: Shutting down and abandoning module DerivedDataCache (63)
-[2014.06.21-23.19.58:727][867]LogDerivedDataCache: Shutdown
-[2014.06.21-23.19.58:727][867]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
-[2014.06.21-23.19.58:760][867]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (57)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (56)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module Messaging (55)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (54)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (53)
-[2014.06.21-23.19.58:784][867]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (52)
-[2014.06.21-23.19.58:798][867]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (51)
-[2014.06.21-23.19.58:827][867]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (50)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module TargetPlatform (49)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module InputCore (47)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module Settings (46)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module TextureCompressor (43)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module ShaderCore (42)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module OpenGLDrv (41)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module D3D11RHI (40)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (39)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module Renderer (38)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module Engine (37)
-[2014.06.21-23.19.58:849][867]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (36)
-[2014.06.21-23.19.58:924][867]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
-[2014.06.21-23.19.58:924][867]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
-[2014.06.21-23.19.58:924][867]LogModuleManager: Shutting down and abandoning module CableComponent (29)
-[2014.06.21-23.19.58:924][867]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.06.21-23.19.58:950][867]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.06.21-23.19.59:050][867]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.06.21-23.19.59:145][867]LogModuleManager: Shutting down and abandoning module PluginsEditor (12)
-[2014.06.21-23.19.59:162][867]LogModuleManager: Shutting down and abandoning module IntroTutorials (11)
-[2014.06.21-23.19.59:162][867]LogModuleManager: Shutting down and abandoning module EpicSurvey (10)
-[2014.06.21-23.19.59:206][867]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.06.21-23.19.59:206][867]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.06.21-23.19.59:217][867]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.06.21-23.19.59:230][867]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.06.21-23.19.59:230][867]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.06.21-23.19.59:230][867]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.06.21-23.19.59:242][867]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.06.21-23.19.59:249][867]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.06.21-23.19.59:263][867]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.06.21-23.19.59:292][867]LogExit: Exiting.
-[2014.06.21-23.19.59:306][867]Log file closed, 06/21/14 18:19:59
+[2014.06.23-18.24.58:582][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.23-18.24.58:607][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.23-18.24.58:612][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.23-18.24.58:619][  0]LogInit: Object subsystem initialized
+[2014.06.23-18.24.58:621][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.23-18.24.58:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.23-18.24.58:649][  0]LogInit: Computer: C-1C3E84FD524D
+[2014.06.23-18.24.58:649][  0]LogInit: User: student
+[2014.06.23-18.24.58:651][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.23-18.24.58:651][  0]LogInit: High frequency timer resolution =2.435927 MHz
+[2014.06.23-18.24.58:651][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.06.23-18.24.58:651][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.23-18.24.58:651][  0]LogMemory: Process Physical Memory: 67.77 MB used, 67.77 MB peak
+[2014.06.23-18.24.58:651][  0]LogMemory: Process Virtual Memory: 45.27 MB used, 45.27 MB peak
+[2014.06.23-18.24.58:651][  0]LogMemory: Physical Memory: 2710.16 MB used, 4027.56 MB total
+[2014.06.23-18.24.58:651][  0]LogMemory: Virtual Memory: 251.29 MB used, 8388608.00 MB total
+[2014.06.23-18.24.58:681][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570M (Feature Level 11_0)
+[2014.06.23-18.24.58:681][  0]LogD3D11RHI: Adapter has 1007MB of dedicated video memory, 0MB of dedicated system memory, and 1757MB of shared system memory, 1 output[s]
+[2014.06.23-18.24.58:681][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.23-18.24.58:686][  0]LogRHI: Texture pool is 705 MB (70% of 1007 MB)
+[2014.06.23-18.24.58:699][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.06.23-18.24.58:740][  0]LogInit:Warning: We appear to have no tool tip localization data? Editor can't run.
+[2014.06.23-18.24.58:740][  0]LogInit:Warning: We appear to have no property name localization data? Editor can't run.
+[2014.06.23-18.24.58:762][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.06.23-18.24.58:783][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.23-18.24.58:803][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.23-18.24.59:405][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.23-18.24.59:465][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.23-18.24.59:492][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache: Loaded boot cache 0.83s 38MB ../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/DerivedDataCache/Boot.ddc.
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/DerivedDataCache/Boot.ddc
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.23-18.25.00:320][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.06.23-18.25.00:331][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.06.23-18.25.00:331][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.06.23-18.25.00:331][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.06.23-18.25.00:470][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.23-18.25.00:470][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.23-18.25.00:714][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.06.23-18.25.00:714][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.06.23-18.25.00:714][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.06.23-18.25.00:714][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.06.23-18.25.01:324][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.23-18.25.01:392][  0]SourceControl: Info Source control is disabled
+[2014.06.23-18.25.01:392][  0]SourceControl: Info Source control is disabled
+[2014.06.23-18.25.01:396][  0]SourceControl: Info Source control is disabled
+[2014.06.23-18.25.01:462][  0]BlueprintLog: New page: Editor Load
+[2014.06.23-18.25.01:489][  0]LogObj: 18600 objects as part of root set at end of initial load.
+[2014.06.23-18.25.01:489][  0]LogUObjectAllocator: 3704160 out of 0 bytes used by permanent object pool.
+[2014.06.23-18.25.01:697][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.06.23-18.25.01:697][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.06.23-18.25.01:697][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.1/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.06.23-18.25.01:697][  0]LogEngine: Initializing Engine...
+[2014.06.23-18.25.01:807][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.23-18.25.01:898][  0]LogInit: FAudioDevice initialized.
+[2014.06.23-18.25.01:940][  0]LogDerivedDataCache: Saved boot cache 0.04s 38MB ../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/DerivedDataCache/Boot.ddc.
+[2014.06.23-18.25.01:945][  0]LogInit: Texture streaming: Enabled
+[2014.06.23-18.25.01:968][  0]LogInit: Transaction tracking system initialized
+[2014.06.23-18.25.02:044][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.06.23-18.25.02:146][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.23-18.25.02:150][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.23-18.25.02:206][  0]LogConsoleResponse:Display: 
+[2014.06.23-18.25.02:391][  0]SourceControl: Info Source control is disabled
+[2014.06.23-18.25.02:391][  0]Cmd: MAP LOAD FILE="../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.23-18.25.02:458][  0]LightingResults: New page: Lighting Build
+[2014.06.23-18.25.02:463][  0]MapCheck: New page: Map Check
+[2014.06.23-18.25.02:463][  0]LightingResults: New page: Lighting Build
+[2014.06.23-18.25.02:478][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000136B14E0
+[2014.06.23-18.25.06:339][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.23-18.25.06:353][  0]Cmd: MAP CHECKDEP
+[2014.06.23-18.25.06:353][  0]MapCheck: New page: Example_Map - Jun 23, 2014, 8:25:06 AM
+[2014.06.23-18.25.06:383][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [29.106ms] ==========
+[2014.06.23-18.25.06:383][  0]LogFileHelpers: Loading map 'Example_Map' took 3.992
+[2014.06.23-18.25.07:241][  0]LogCollectionManager: Loaded 0 collections in 0.001035 seconds
+[2014.06.23-18.25.09:990][  0]LogInit: Using libcurl 7.34.0
+[2014.06.23-18.25.09:990][  0]LogInit:  - built for x86_64-pc-win32
+[2014.06.23-18.25.09:991][  0]LogInit:  - supports SSL with WinSSL
+[2014.06.23-18.25.09:991][  0]LogInit:  - other features:
+[2014.06.23-18.25.09:991][  0]LogInit:      CURL_VERSION_SSL
+[2014.06.23-18.25.09:991][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.06.23-18.25.09:991][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.06.23-18.25.09:991][  0]LogInit:      CURL_VERSION_IDN
+[2014.06.23-18.25.09:992][  0]LogInit: Libcurl will NOT reuse connections
+[2014.06.23-18.25.11:080][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.23-18.25.11:147][  0]Cmd: MODE PLACEMENT
+[2014.06.23-18.25.11:672][  0]LogLoad: Full Startup: 14.69 seconds (BP compile: 0.09 seconds)
+[2014.06.23-18.25.11:683][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.06.23-18.25.21:604][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x720.
+[2014.06.23-18.25.22:336][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1290AC376FDC59E5</RequestId><HostId>Yysas48Ds4yBZ0Y2UvvjFRehqNC/MSxpXInn4GVIdvjvKkq3MOV5qn8AZ8ZDmJEq</HostId></Error>
+[2014.06.23-18.25.22:454][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2B6EEB53DAE8A8D7</RequestId><HostId>4D+Qb72cZ/I8x3ncBPuLXr5pUVdDrMB81+QZdXqtJXlmsRs7nj+fU+cr5MNohWEp</HostId></Error>
+[2014.06.23-18.25.22:519][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AC04992629E02653</RequestId><HostId>eDlynlcJH9CwEdSGN5Ce3jC7j+0nMyugmN03j8CpgemSTz4V9PmcZ0dVAMe6iO/d</HostId></Error>
+[2014.06.23-18.25.22:554][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>25B2D6AD36B0F480</RequestId><HostId>ahm9uWOyIwGevS/9n8O7fF/g0tkjbux4AExXH0IKXqEFVEsHqUm/VPfcA7jHBcwL</HostId></Error>
+[2014.06.23-18.25.22:859][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C49D061BC6CD7C67</RequestId><HostId>QKbIOS+c48PeJtkgDK9XkXabZhby5tMH12T/A8dfGm6WNxd8T/jgwp77gmwP5Bk/</HostId></Error>
+[2014.06.23-18.25.23:290][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.23-18.25.23:413][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.23-18.25.24:874][ 33]LogAssetRegistry: Asset discovery search completed in 22.8402 seconds
+[2014.06.23-18.26.29:010][ 42]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.23-18.26.29:019][ 42]PIE: New page: PIE session: Example_Map (Jun 23, 2014, 8:26:29 AM)
+[2014.06.23-18.26.29:060][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040771s)
+[2014.06.23-18.26.29:061][ 42]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2014.06.23-18.26.29:061][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041604s)
+[2014.06.23-18.26.29:192][ 42]LogLinker:Warning: CreateExport: Failed to load Super for Function /Game/Character/HeroFPP_AnimBlueprint.HeroFPP_AnimBlueprint_C:KismetUpdateAnimation; removing super information, but keeping function
+[2014.06.23-18.26.29:424][ 42]LogClass:Warning: Type mismatch in PreviewSkeletalMesh of Skeleton - Previous (ObjectProperty) Current(AssetObjectProperty) for package:  ../../../../Student Data/Documents/GitHub/JuneGameJam/GameJam/Content/Character/HeroFPP_Skeleton.uasset
+[2014.06.23-18.26.29:526][ 42]LogWorld: Game class is 'MyGame_C'
+[2014.06.23-18.26.29:582][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.06.23-13.26.29
+[2014.06.23-18.26.29:591][ 42]LogWorld: Bringing up level for play took: 0.012536
+[2014.06.23-18.26.29:616][ 42]LogGameMode: RestartPlayer 256
+[2014.06.23-18.26.29:687][ 42]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.06.23-18.26.29:687][ 42]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.06.23-18.26.29:765][ 42]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.75
+[2014.06.23-18.26.49:542][425]LogBlueprintUserMessages: 2
+[2014.06.23-18.26.50:492][443]LogBlueprintUserMessages: 3
+[2014.06.23-18.26.51:481][462]LogBlueprintUserMessages: 4
+[2014.06.23-18.26.51:794][468]LogBlueprintUserMessages: 5
+[2014.06.23-18.26.52:003][472]LogBlueprintUserMessages: 6
+[2014.06.23-18.26.52:264][477]LogBlueprintUserMessages: 7
+[2014.06.23-18.26.54:867][527]LogBlueprintUserMessages: 8
+[2014.06.23-18.26.55:815][545]LogBlueprintUserMessages: 9
+[2014.06.23-18.26.56:231][553]LogBlueprintUserMessages: 10
+[2014.06.23-18.26.56:594][560]LogBlueprintUserMessages: 11
+[2014.06.23-18.26.56:905][566]LogBlueprintUserMessages: 12
+[2014.06.23-18.26.57:944][586]LogBlueprintUserMessages: 13
+[2014.06.23-18.26.59:266][612]LogBlueprintUserMessages: 14
+[2014.06.23-18.26.59:674][620]LogBlueprintUserMessages: 15
+[2014.06.23-18.26.59:878][624]LogBlueprintUserMessages: 16
+[2014.06.23-18.27.00:133][629]LogBlueprintUserMessages: 17
+[2014.06.23-18.27.01:774][663]LogBlueprintUserMessages: 18
+[2014.06.23-18.27.02:482][681]LogBlueprintUserMessages: 19
+[2014.06.23-18.27.05:331][746]LogBlueprintUserMessages: 20
+[2014.06.23-18.27.07:226][785]LogBlueprintUserMessages: 21
+[2014.06.23-18.27.07:530][791]LogBlueprintUserMessages: 22
+[2014.06.23-18.27.07:835][797]LogBlueprintUserMessages: 23
+[2014.06.23-18.27.08:943][819]LogBlueprintUserMessages: 24
+[2014.06.23-18.27.12:596][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.06.23-18.27.12:596][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.06.23-18.27.13:002][892]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021F4AC00
+[2014.06.23-18.27.13:107][893]Cmd: QUIT_EDITOR
+[2014.06.23-18.27.13:162][893]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.23-18.27.13:163][893]LogExit: Preparing to exit.
+[2014.06.23-18.27.13:366][893]LogExit: Editor shut down
+[2014.06.23-18.27.13:366][893]LogExit: Transaction tracking system shut down
+[2014.06.23-18.27.13:367][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B83E480
+[2014.06.23-18.27.13:368][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000168893A0
+[2014.06.23-18.27.13:386][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D39BC40
+[2014.06.23-18.27.13:386][893]LogExit: Object subsystem successfully closed.
+[2014.06.23-18.27.13:408][893]LogModuleManager: Shutting down and abandoning module CrashTracker (145)
+[2014.06.23-18.27.13:408][893]LogModuleManager: Shutting down and abandoning module HTTP (144)
+[2014.06.23-18.27.13:431][893]LogModuleManager: Shutting down and abandoning module NewsFeed (143)
+[2014.06.23-18.27.13:431][893]LogModuleManager: Shutting down and abandoning module SceneOutliner (142)
+[2014.06.23-18.27.13:431][893]LogModuleManager: Shutting down and abandoning module EditorWidgets (141)
+[2014.06.23-18.27.13:431][893]LogModuleManager: Shutting down and abandoning module CollectionManager (140)
+[2014.06.23-18.27.13:444][893]LogModuleManager: Shutting down and abandoning module StatsViewer (139)
+[2014.06.23-18.27.13:444][893]LogModuleManager: Shutting down and abandoning module FoliageEdit (138)
+[2014.06.23-18.27.13:444][893]LogModuleManager: Shutting down and abandoning module LandscapeEditor (137)
+[2014.06.23-18.27.13:447][893]LogModuleManager: Shutting down and abandoning module MeshPaint (136)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module GeometryMode (135)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module TextureAlignMode (134)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module BspMode (133)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module PlacementMode (132)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module AutomationWorker (131)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module ViewportSnapping (130)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (129)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module UndoHistory (128)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (127)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module UserFeedback (126)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module XmlParser (125)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (124)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module Blutility (123)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (122)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (121)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (118)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module InputBindingEditor (117)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (116)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module SettingsEditor (115)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module SessionLauncher (114)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module SessionFrontend (113)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module ProfilerClient (112)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (111)
+[2014.06.23-18.27.13:448][893]LogModuleManager: Shutting down and abandoning module DeviceManager (110)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module AutomationController (109)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module AutomationWindow (108)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module Layers (107)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (106)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module DetailCustomizations (105)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module PackagesDialog (104)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module PropertyEditor (103)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2014.06.23-18.27.13:449][893]LogModuleManager: Shutting down and abandoning module AssetRegistry (101)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module Persona (100)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module GraphEditor (99)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module ClassViewer (97)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module Toolbox (96)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module ModuleUI (95)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module Sequencer (94)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module AssetTools (93)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module MovieSceneTools (92)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module OutputLog (91)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module GammaUI (90)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module Documentation (89)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
+[2014.06.23-18.27.13:491][893]LogModuleManager: Shutting down and abandoning module ProfilerService (87)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module TaskGraph (86)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module MainFrame (81)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module SourceControl (80)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module ImageWrapper (79)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (76)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module MessageLog (75)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2014.06.23-18.27.13:533][893]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module SessionServices (72)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module VSAccessor (71)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (70)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module XAudio2 (69)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module Core (67)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module KismetCompiler (66)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module PhysXFormats (65)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module MeshUtilities (64)
+[2014.06.23-18.27.13:535][893]LogModuleManager: Shutting down and abandoning module DerivedDataCache (63)
+[2014.06.23-18.27.13:633][893]LogDerivedDataCache: Shutdown
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (57)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (56)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (54)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (53)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (52)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (51)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (50)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module TargetPlatform (49)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module InputCore (47)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module Settings (46)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module TextureCompressor (43)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module ShaderCore (42)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module OpenGLDrv (41)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module D3D11RHI (40)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (39)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module Renderer (38)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module Engine (37)
+[2014.06.23-18.27.13:633][893]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (36)
+[2014.06.23-18.27.13:635][893]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
+[2014.06.23-18.27.13:635][893]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
+[2014.06.23-18.27.13:635][893]LogModuleManager: Shutting down and abandoning module CableComponent (29)
+[2014.06.23-18.27.13:635][893]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.23-18.27.13:635][893]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module PluginsEditor (12)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module IntroTutorials (11)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module EpicSurvey (10)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.23-18.27.13:735][893]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.23-18.27.13:735][893]LogExit: Exiting.
+[2014.06.23-18.27.13:736][893]Log file closed, 06/23/14 13:27:13
